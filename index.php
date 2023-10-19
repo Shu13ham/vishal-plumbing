@@ -27,7 +27,7 @@
   <header id="header" class="fixed-top ">
     <div class="container d-flex align-items-center justify-content-lg-between">
 
-      <h1 class="logo me-auto me-lg-0 fs-14"><a href="index.php">Vishal Plumbing Goa<span>.</span></a></h1>
+      <h1 class="logo me-lg-0 fs-14"><a href="index.php">Vishal Plumbing Goa<span>.</span></a></h1>
 
       <nav id="navbar" class="navbar order-last order-lg-0">
         <ul>
@@ -41,7 +41,7 @@
         <i class="bi bi-list mobile-nav-toggle"></i>
       </nav><!-- .navbar -->
 
-      <a href="#about" class="get-started-btn scrollto">Get Started</a>
+      <a href="#about" class="get-started-btn scrollto d-sm-none">Get Started</a>
 
     </div>
   </header><!-- End Header -->
@@ -52,7 +52,7 @@
 
       <div class="row justify-content-center" data-aos="fade-up" data-aos-delay="150">
         <div class="col-xl-6 col-lg-8">
-          <h1>Powerful Digital Solutions With Gp<span>.</span></h1>
+          <h1>Powerful Plumbing Solutions that Flow Smoothly<span>.</span></h1>
           <h2>We are team of talented Plumbers</h2>
         </div>
       </div>
@@ -104,19 +104,19 @@
             <img src="assets/img/about.jpg" class="img-fluid" alt="">
           </div>
           <div class="col-lg-6 pt-4 pt-lg-0 order-2 order-lg-1 content" data-aos="fade-right" data-aos-delay="100">
-            <h3>Voluptatem dignissimos provident quasi corporis voluptates sit assumenda.</h3>
+            <h3>Pipes, Problems, and Professional Solutions.</h3>
             <p class="fst-italic">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-              magna aliqua.
+            Experiencing plumbing issues can be a major inconvenience, but we're here to make it as painless as possible. 
+            Our team is dedicated to providing top-notch plumbing services, ensuring your peace of mind.
             </p>
             <ul>
-              <li><i class="ri-check-double-line"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat.</li>
-              <li><i class="ri-check-double-line"></i> Duis aute irure dolor in reprehenderit in voluptate velit.</li>
-              <li><i class="ri-check-double-line"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate trideta storacalaperda mastiro dolore eu fugiat nulla pariatur.</li>
+              <li><i class="ri-check-double-line"></i> Our experts are ready to tackle minor leak or a more complex problem head-on.</li>
+              <li><i class="ri-check-double-line"></i> We're committed to delivering efficient, reliable solutions.</li>
+              <li><i class="ri-check-double-line"></i> We take pride in our work and strive for excellence in every job we undertake. </li>
             </ul>
             <p>
-              Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
-              velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident
+            Don't let plumbing issues disrupt your daily life. Contact us today for professional plumbing services that you can trust.
+            We're your plumbing partners, ready to ensure your home's plumbing functions flawlessly. 
             </p>
           </div>
         </div>
@@ -154,23 +154,24 @@
           <div class="col-lg-6" data-aos="fade-left" data-aos-delay="100">
             <div class="icon-box mt-5 mt-lg-0" data-aos="zoom-in" data-aos-delay="150">
               <i class="bx bx-receipt"></i>
-              <h4>Est labore ad</h4>
-              <p>Consequuntur sunt aut quasi enim aliquam quae harum pariatur laboris nisi ut aliquip</p>
+              <h4>Your Plumbing Pros, On the Go!</h4>
+              <p>In the world of plumbing services, we're your dedicated and professional team of experts, always ready to spring into action. 
+                "Your Plumbing Pros, On the Go!" means that we are at your service whenever and wherever you need us.</p>
             </div>
             <div class="icon-box mt-5" data-aos="zoom-in" data-aos-delay="150">
               <i class="bx bx-cube-alt"></i>
-              <h4>Harum esse qui</h4>
-              <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt</p>
+              <h4>When Drips Become Disasters, We're Here.</h4>
+              <p>At our plumbing company, we understand that what starts as a small drip or leak in your plumbing system can quickly evolve into a full-blown disaster if left unattended. </p>
             </div>
             <div class="icon-box mt-5" data-aos="zoom-in" data-aos-delay="150">
               <i class="bx bx-images"></i>
-              <h4>Aut occaecati</h4>
-              <p>Aut suscipit aut cum nemo deleniti aut omnis. Doloribus ut maiores omnis facere</p>
+              <h4>Plumbing Precision, Customer Commitment.</h4>
+              <p>That's where we step in. Our team of skilled and experienced plumbers is here to prevent those minor drips from turning into major disasters.</p>
             </div>
             <div class="icon-box mt-5" data-aos="zoom-in" data-aos-delay="150">
               <i class="bx bx-shield"></i>
-              <h4>Beatae veritatis</h4>
-              <p>Expedita veritatis consequuntur nihil tempore laudantium vitae denat pacta</p>
+              <h4>Your Home's Plumbing Superheroes.</h4>
+              <p>We're here to ensure that even the tiniest drips are addressed promptly and effectively, saving you from the potential disasters that can follow.</p>
             </div>
           </div>
         </div>
@@ -191,48 +192,54 @@
           <div class="col-lg-4 col-md-6 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="100">
             <div class="icon-box">
               <div class="icon"><i class="bx bxl-dribbble"></i></div>
-              <h4><a href="">Lorem Ipsum</a></h4>
-              <p>Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi</p>
+              <h4><a href="">House/Building Plumbing</a></h4>
+              <p class="mb-3">Our expertise in house and building plumbing services ensures that your residential or commercial property's water supply and drainage systems remain in perfect working order. </p>
+              <p class="mb-3 d-sm-none">From fixing leaks to installing new plumbing fixtures, we are your trusted partner for maintaining the plumbing integrity of your space.</p>
             </div>
           </div>
 
           <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-md-0" data-aos="zoom-in" data-aos-delay="200">
             <div class="icon-box">
               <div class="icon"><i class="bx bx-file"></i></div>
-              <h4><a href="">Sed ut perspiciatis</a></h4>
-              <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore</p>
+              <h4><a href="">Private-Shop Plumbing</a></h4>
+              <p class="mb-3">Private shops and small businesses have unique plumbing needs, and our specialized private-shop plumbing services cater to these requirements.</p> 
+              <p class="mb-3 d-sm-none">We offer tailored solutions to keep your shop's water and sanitation systems running smoothly, ensuring minimal downtime for your business.</p>
             </div>
           </div>
 
           <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-lg-0" data-aos="zoom-in" data-aos-delay="300">
             <div class="icon-box">
               <div class="icon"><i class="bx bx-tachometer"></i></div>
-              <h4><a href="">Magni Dolores</a></h4>
-              <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia</p>
+              <h4><a href="">Housing-Society Plumbing</a></h4>
+              <p class="mb-3">For housing societies and apartment complexes, our housing-society plumbing services provide comprehensive solutions to address the collective plumbing needs of multiple units.</p> 
+              <p class="mb-3 d-sm-none">We ensure that the water supply and drainage systems within your community are well-maintained, promoting a high standard of living for all residents.</p>
             </div>
           </div>
 
           <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4" data-aos="zoom-in" data-aos-delay="100">
             <div class="icon-box">
               <div class="icon"><i class="bx bx-world"></i></div>
-              <h4><a href="">Nemo Enim</a></h4>
-              <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis</p>
+              <h4><a href="">Office Plumbing</a></h4>
+              <p class="mb-3">A well-functioning plumbing system is crucial for the productivity and comfort of your office space.</p> 
+              <p class="mb-3 d-sm-none">Our office plumbing services are designed to meet the unique demands of commercial properties, offering prompt repairs and installations to keep your workspace efficient and welcoming.</p>
             </div>
           </div>
 
           <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4" data-aos="zoom-in" data-aos-delay="200">
             <div class="icon-box">
               <div class="icon"><i class="bx bx-slideshow"></i></div>
-              <h4><a href="">Dele cardo</a></h4>
-              <p>Quis consequatur saepe eligendi voluptatem consequatur dolor consequuntur</p>
+              <h4><a href="">Outstation Plumbing</a></h4>
+              <p class="mb-3">Our outstation plumbing services extend beyond the city limits. Whether you have a remote cabin, vacation home, or an out-of-town property</p> 
+              <p class="mb-3 d-sm-none">we are ready to provide expert plumbing solutions, ensuring that your plumbing needs are met, no matter where your property is located.</p>
             </div>
           </div>
 
           <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4" data-aos="zoom-in" data-aos-delay="300">
             <div class="icon-box">
               <div class="icon"><i class="bx bx-arch"></i></div>
-              <h4><a href="">Divera don</a></h4>
-              <p>Modi nostrum vel laborum. Porro fugit error sit minus sapiente sit aspernatur</p>
+              <h4><a href="">Anywhere you want!</a></h4>
+              <p class="mb-3">We pride ourselves on our flexibility and reach. Our plumbing services are available wherever you need them.</p> 
+              <p class="mb-3 d-sm-none">Whether it's your home, office, shop, or any other location, we're committed to delivering top-notch plumbing services to meet your specific requirements, anytime, and anywhere.</p>
             </div>
           </div>
 
@@ -247,8 +254,11 @@
 
         <div class="text-center">
           <h3>Call To Action</h3>
-          <p> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-          <a class="cta-btn" href="#">Call To Action</a>
+          <p> Ready to tackle your plumbing issues with speed and precision? Contact us today and experience plumbing solutions that make a difference.</p>
+          <p class="d-sm-none"> 
+            Our team of skilled professionals is on call, committed to providing prompt and reliable services tailored to your needs. 
+            Don't wait until a small drip becomes a major headache. Reach out now, and let us ensure your plumbing runs smoothly, giving you peace of mind in every drop.</p>
+          <a href="https://api.WhatsApp.com/send?phone=+91-0000000000" class="cta-btn"><i class="fa fa-whatsapp">Call To Action</i></a>
         </div>
 
       </div>
@@ -413,42 +423,24 @@
 
         <div class="row no-gutters">
           <div class="image col-xl-5 d-flex align-items-stretch justify-content-center justify-content-lg-start" data-aos="fade-right" data-aos-delay="100"></div>
-          <div class="col-xl-7 ps-0 ps-lg-5 pe-lg-1 d-flex align-items-stretch" data-aos="fade-left" data-aos-delay="100">
+          <div class="col-xl-7 ps-lg-5 pe-lg-1 d-flex align-items-stretch" data-aos="fade-left" data-aos-delay="100">
             <div class="content d-flex flex-column justify-content-center">
-              <h3>Voluptatem dignissimos provident quasi</h3>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Duis aute irure dolor in reprehenderit
-              </p>
+              <h3>We're Piping Hot for Your Plumbing Needs</h3>
+              <p>e pride ourselves on our flexibility and reach. Our plumbing services are available wherever you need them. Whether it's your home, office, 
+                shop, or any other location, we're committed to delivering top-notch plumbing services to meet your specific requirements, anytime, and anywhere.</p>
               <div class="row">
                 <div class="col-md-6 d-md-flex align-items-md-stretch">
                   <div class="count-box">
                     <i class="bi bi-emoji-smile"></i>
                     <span data-purecounter-start="0" data-purecounter-end="65" data-purecounter-duration="2" class="purecounter"></span>
-                    <p><strong>Happy Clients</strong> consequuntur voluptas nostrum aliquid ipsam architecto ut.</p>
+                    <p><strong>Happy Clients</strong> Over the years, we've proudly served many happy clients and counting, leaving a trail of satisfied customers delighted with our plumbing solutions.</p>
                   </div>
                 </div>
-
-                <div class="col-md-6 d-md-flex align-items-md-stretch">
-                  <div class="count-box">
-                    <i class="bi bi-journal-richtext"></i>
-                    <span data-purecounter-start="0" data-purecounter-end="85" data-purecounter-duration="2" class="purecounter"></span>
-                    <p><strong>Projects</strong> adipisci atque cum quia aspernatur totam laudantium et quia dere tan</p>
-                  </div>
-                </div>
-
                 <div class="col-md-6 d-md-flex align-items-md-stretch">
                   <div class="count-box">
                     <i class="bi bi-clock"></i>
                     <span data-purecounter-start="0" data-purecounter-end="35" data-purecounter-duration="4" class="purecounter"></span>
-                    <p><strong>Years of experience</strong> aut commodi quaerat modi aliquam nam ducimus aut voluptate non vel</p>
-                  </div>
-                </div>
-
-                <div class="col-md-6 d-md-flex align-items-md-stretch">
-                  <div class="count-box">
-                    <i class="bi bi-award"></i>
-                    <span data-purecounter-start="0" data-purecounter-end="20" data-purecounter-duration="4" class="purecounter"></span>
-                    <p><strong>Awards</strong> rerum asperiores dolor alias quo reprehenderit eum et nemo pad der</p>
+                    <p><strong>Years of experience</strong> Trust us to bring our wealth of knowledge to your next plumbing project and experience the difference of quality workmanship.</p>
                   </div>
                 </div>
               </div>
@@ -468,12 +460,12 @@
 
             <div class="swiper-slide">
               <div class="testimonial-item">
-                <img src="assets/img/testimonials/testimonials-1.jpg" class="testimonial-img" alt="">
-                <h3>Saul Goodman</h3>
-                <h4>Ceo &amp; Founder</h4>
+                <img src="assets/img/testimonials/4.png" class="testimonial-img" alt="">
+                <h3>Kalpesh Govekar</h3>
+                <h4>Resident of &amp; Panjim Goa</h4>
                 <p>
                   <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                  Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit rhoncus. Accusantium quam, ultricies eget id, aliquam eget nibh et. Maecen aliquam, risus at semper.
+                  "Exceptional service! The plumbers were prompt, professional, and resolved our issue quickly. Highly recommended!"
                   <i class="bx bxs-quote-alt-right quote-icon-right"></i>
                 </p>
               </div>
@@ -481,12 +473,12 @@
 
             <div class="swiper-slide">
               <div class="testimonial-item">
-                <img src="assets/img/testimonials/testimonials-2.jpg" class="testimonial-img" alt="">
-                <h3>Sara Wilsson</h3>
-                <h4>Designer</h4>
+                <img src="assets/img/testimonials/4.png" class="testimonial-img" alt="">
+                <h3>Sameer Naik</h3>
+                <h4>Resident of &amp; Mapusa Goa</h4>
                 <p>
                   <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                  Export tempor illum tamen malis malis eram quae irure esse labore quem cillum quid cillum eram malis quorum velit fore eram velit sunt aliqua noster fugiat irure amet legam anim culpa.
+                  "I can't thank the team enough for their quick response and quality work. Our plumbing problem was fixed in no time!"
                   <i class="bx bxs-quote-alt-right quote-icon-right"></i>
                 </p>
               </div>
@@ -494,12 +486,12 @@
 
             <div class="swiper-slide">
               <div class="testimonial-item">
-                <img src="assets/img/testimonials/testimonials-3.jpg" class="testimonial-img" alt="">
-                <h3>Jena Karlis</h3>
-                <h4>Store Owner</h4>
+                <img src="assets/img/testimonials/5.png" class="testimonial-img" alt="">
+                <h3>Jennifer Dias</h3>
+                <h4>Resident of &amp; Old Goa</h4>
                 <p>
                   <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                  Enim nisi quem export duis labore cillum quae magna enim sint quorum nulla quem veniam duis minim tempor labore quem eram duis noster aute amet eram fore quis sint minim.
+                  "Outstanding experience with this plumbing company. They went above and beyond to ensure our satisfaction. Will definitely call them again."
                   <i class="bx bxs-quote-alt-right quote-icon-right"></i>
                 </p>
               </div>
@@ -507,12 +499,12 @@
 
             <div class="swiper-slide">
               <div class="testimonial-item">
-                <img src="assets/img/testimonials/testimonials-4.jpg" class="testimonial-img" alt="">
-                <h3>Matt Brandon</h3>
-                <h4>Freelancer</h4>
+                <img src="assets/img/testimonials/4.png" class="testimonial-img" alt="">
+                <h3>Mahesh Sawant</h3>
+                <h4>Vitri Labs &amp; Verem Goa</h4>
                 <p>
                   <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                  Fugiat enim eram quae cillum dolore dolor amet nulla culpa multos export minim fugiat minim velit minim dolor enim duis veniam ipsum anim magna sunt elit fore quem dolore labore illum veniam.
+                  "A+ service! The plumbers were courteous, efficient, and left the work area spotless. Truly impressed with their attention to detail."
                   <i class="bx bxs-quote-alt-right quote-icon-right"></i>
                 </p>
               </div>
@@ -520,12 +512,12 @@
 
             <div class="swiper-slide">
               <div class="testimonial-item">
-                <img src="assets/img/testimonials/testimonials-5.jpg" class="testimonial-img" alt="">
-                <h3>John Larson</h3>
-                <h4>Entrepreneur</h4>
+                <img src="assets/img/testimonials/4.png" class="testimonial-img" alt="">
+                <h3>John Lobo</h3>
+                <h4>The Look Salon &amp; Mapusa Goa</h4>
                 <p>
                   <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                  Quis quorum aliqua sint quem legam fore sunt eram irure aliqua veniam tempor noster veniam enim culpa labore duis sunt culpa nulla illum cillum fugiat legam esse veniam culpa fore nisi cillum quid.
+                  "I had a major plumbing emergency, and they saved the day! The team was knowledgeable, and their pricing was fair. Thank you!"
                   <i class="bx bxs-quote-alt-right quote-icon-right"></i>
                 </p>
               </div>
@@ -636,12 +628,9 @@
         </div>
 
         <div>
-          <iframe style="border:0; width: 100%; height: 270px;" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12097.433213460943!2d-74.0062269!3d40.7101282!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xb89d1fe6bc499443!2sDowntown+Conference+Center!5e0!3m2!1smk!2sbg!4v1539943755621" frameborder="0" allowfullscreen></iframe>
+          <iframe style="border:0; width: 100%; height: 270px;" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d808.2628266421216!2d73.82635182245319!3d15.49692700353389!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bbfc08ee49ea94f%3A0xcaced802ba2e4daf!2sWagles!5e0!3m2!1sen!2sin!4v1636188715347!5m2!1sen!2sin" frameborder="0" allowfullscreen></iframe>
         </div>
 
-        <div class="row mt-5">
-
-          <div class="col-lg-4">
             <div class="info">
               <div class="address">
                 <i class="bi bi-geo-alt"></i>
@@ -663,8 +652,7 @@
 
             </div>
 
-          </div>
-
+        <!-- 
           <div class="col-lg-8 mt-5 mt-lg-0">
 
             <form action="forms/contact.php" method="post" role="form" class="php-email-form">
@@ -690,9 +678,8 @@
               <div class="text-center"><button type="submit">Send Message</button></div>
             </form>
 
-          </div>
-
-        </div>
+          </div> 
+        -->
 
       </div>
     </section><!-- End Contact Section -->
@@ -707,7 +694,7 @@
 
           <div class="col-lg-3 col-md-6">
             <div class="footer-info">
-              <h3>Gp<span>.</span></h3>
+              <h3>Vishal Plumbing<span>.</span></h3>
               <p>
                 A108 Adam Street <br>
                 NY 535022, USA<br><br>
@@ -715,11 +702,8 @@
                 <strong>Email:</strong> info@example.com<br>
               </p>
               <div class="social-links mt-3">
-                <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
                 <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
                 <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
-                <a href="#" class="google-plus"><i class="bx bxl-skype"></i></a>
-                <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
               </div>
             </div>
           </div>
@@ -727,32 +711,23 @@
           <div class="col-lg-2 col-md-6 footer-links">
             <h4>Useful Links</h4>
             <ul>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Home</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">About us</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Services</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Terms of service</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Privacy policy</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#hero">Home</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#about">About us</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#services">Services</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#portfolio">Portfolios</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#contact">Contact</a></li>
             </ul>
           </div>
 
           <div class="col-lg-3 col-md-6 footer-links">
             <h4>Our Services</h4>
             <ul>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Web Design</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Web Development</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Product Management</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Marketing</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Graphic Design</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">House/Building Plumbing</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Private-Shop Plumbing</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Housing-Society Plumbing</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Office Plumbing</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Outstation Plumbing</a></li>
             </ul>
-          </div>
-
-          <div class="col-lg-4 col-md-6 footer-newsletter">
-            <h4>Our Newsletter</h4>
-            <p>Tamen quem nulla quae legam multos aute sint culpa legam noster magna</p>
-            <form action="" method="post">
-              <input type="email" name="email"><input type="submit" value="Subscribe">
-            </form>
-
           </div>
 
         </div>
@@ -761,7 +736,7 @@
 
     <div class="container">
       <div class="copyright">
-        &copy; Copyright <strong><span>Gp</span></strong>. All Rights Reserved
+        &copy; Copyright <strong><span>Vishal Plumbing Goa</span></strong>. All Rights Reserved
       </div>
     </div>
   </footer><!-- End Footer -->

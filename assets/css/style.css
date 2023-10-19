@@ -361,7 +361,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 #hero .container {
   position: relative;
-  padding-top: 74px;
+  padding-top: 0;
   text-align: center;
 }
 #hero h1 {
@@ -416,16 +416,54 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 @media (max-width: 768px) {
+  .d-sm-none{
+    display: none;
+  }
   #hero {
     height: auto;
+    padding-top: 100px !important;
   }
   #hero h1 {
-    font-size: 28px;
-    line-height: 36px;
+    font-size: 16px;
+    line-height: 20px;
+    width: 70%;
+    margin: auto;
   }
   #hero h2 {
-    font-size: 20px;
+    font-size: 16px;
     line-height: 24px;
+  }
+  #hero .icon-box h3 a{
+    font-size: 14px;
+  }
+  #hero .icon-box{
+    padding: 10px 10px !important;
+  }
+  #hero .icon-box h3{
+    margin-top: 0 !important;
+  }
+  #header .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row-reverse;
+  }
+  .contact .info{
+    margin-top: 40px !important;
+  }
+  #header .container h1 a{
+    position: static !important;
+  }
+  #header .container h1{
+    margin-top: 0px !important;
+    text-align: center;
+    font-size: 24px !important;
+  }
+  .services .icon-box{
+    padding: 20px !important;
+  }
+  .services .icon-box p{
+    margin-bottom: 0 !important;
   }
 }
 
@@ -532,9 +570,9 @@ section {
 .features {
   padding-top: 20px;
 }
-.features .icon-box {
+/* .features .icon-box {
   padding-left: 15px;
-}
+} */
 .features .icon-box h4 {
   font-size: 20px;
   font-weight: 700;
@@ -959,7 +997,7 @@ section {
 }
 @media (min-width: 992px) {
   .testimonials .testimonial-item p {
-    width: 80%;
+    width: 90%;
   }
 }
 
