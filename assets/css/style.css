@@ -416,6 +416,10 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 @media (max-width: 768px) {
+  
+  .contact .info .email, .contact .info .phone {
+    margin-top: 40px;
+  }
   .d-sm-none{
     display: none;
   }
@@ -450,7 +454,10 @@ h1, h2, h3, h4, h5, h6 {
   }
   .contact .info{
     margin-top: 40px !important;
+    grid-template-columns: auto !important;
+    grid-gap: 0px !important;
   }
+
   #header .container h1 a{
     position: static !important;
   }
@@ -765,6 +772,9 @@ section {
 .portfolio .portfolio-wrap .portfolio-links {
   text-align: center;
   z-index: 4;
+  position: absolute;
+  top: 10px;
+  right: 10px;
 }
 .portfolio .portfolio-wrap .portfolio-links a {
   color: #fff;
@@ -1082,6 +1092,10 @@ section {
 .contact .info {
   width: 100%;
   background: #fff;
+  margin-top: 50px;
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-gap: 30px;
 }
 .contact .info i {
   font-size: 20px;
@@ -1100,7 +1114,8 @@ section {
   padding: 0 0 0 60px;
   font-size: 22px;
   font-weight: 600;
-  margin-bottom: 5px;
+  margin-bottom: 0px;
+  line-height: 1;
   color: #151515;
 }
 .contact .info p {
@@ -1108,9 +1123,6 @@ section {
   margin-bottom: 0;
   font-size: 14px;
   color: #484848;
-}
-.contact .info .email, .contact .info .phone {
-  margin-top: 40px;
 }
 .contact .php-email-form {
   width: 100%;
@@ -1181,6 +1193,12 @@ section {
 }
 .contact .php-email-form button[type=submit]:hover {
   background: #ffcd6b;
+}
+.contact .info .email,.contact .info .phone,.contact .address {
+  transition: transform 0.3s ease-in-out;
+}
+.contact .info .email:hover,.contact .info .phone:hover,.contact .address:hover {
+  transform: scale(1.1);
 }
 @-webkit-keyframes animate-loading {
   0% {
