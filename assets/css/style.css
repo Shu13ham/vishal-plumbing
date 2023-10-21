@@ -34,6 +34,20 @@ h1, h2, h3, h4, h5, h6 {
   border-radius: 4px;
   transition: all 0.4s;
 }
+.relative{
+  position: relative;
+  transition: transform 0.03s linear;
+}
+.relative img{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  padding-right: calc(var(--bs-gutter-x) * .5);
+  padding-left: calc(var(--bs-gutter-x) * .5);
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
 .back-to-top i {
   font-size: 28px;
   color: #151515;
@@ -417,6 +431,18 @@ h1, h2, h3, h4, h5, h6 {
 }
 @media (max-width: 768px) {
   
+  #header .logo-img img{
+    width: 150px;
+    position: absolute;
+    top: 15px;
+    left: 50%;
+    transform: translateX(-50%);
+    transition: all 0.3s linear;
+  }
+  .header-scrolled .logo-img img{
+    width: 70px !important;
+    top: 8px !important;
+  }
   .contact .info .email, .contact .info .phone {
     margin-top: 40px;
   }
@@ -425,7 +451,7 @@ h1, h2, h3, h4, h5, h6 {
   }
   #hero {
     height: auto;
-    padding-top: 100px !important;
+    padding-top: 150px !important;
   }
   #hero h1 {
     font-size: 16px;
@@ -610,7 +636,18 @@ section {
   border: 1px solid #ebebeb;
   padding: 80px 20px;
   transition: all ease-in-out 0.3s;
-  background: #fff;
+  /* background: #fff; */
+  position: relative;
+}
+.services .icon-box::before{
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.7);
+  z-index: -1;
 }
 .services .icon-box .icon {
   margin: 0 auto;
@@ -625,7 +662,7 @@ section {
   transition: 0.3s;
 }
 .services .icon-box .icon i {
-  color: #151515;
+  color: #fff;
   font-size: 28px;
   transition: ease-in-out 0.3s;
 }
@@ -633,9 +670,10 @@ section {
   font-weight: 700;
   margin-bottom: 15px;
   font-size: 24px;
+  color: #fff;
 }
 .services .icon-box h4 a {
-  color: #151515;
+  color: #fff;
   transition: ease-in-out 0.3s;
 }
 .services .icon-box h4 a:hover {
@@ -645,11 +683,12 @@ section {
   line-height: 24px;
   font-size: 14px;
   margin-bottom: 0;
+  color: #fff;
 }
-.services .icon-box:hover {
+.services .relative:hover {
   border-color: #fff;
-  box-shadow: 0px 0 25px 0 rgba(0, 0, 0, 0.1);
-  transform: translateY(-10px);
+  /* box-shadow: 0px 0 25px 0 rgba(0, 0, 0, 0.1); */
+  transform: scale(1.05);
 }
 
 /*--------------------------------------------------------------
@@ -659,6 +698,15 @@ section {
   background: linear-gradient(rgba(2, 2, 2, 0.5), rgba(0, 0, 0, 0.5)), url("../img/cta-bg.jpg") fixed center center;
   background-size: cover;
   padding: 60px 0;
+}
+.call-to-action::before{
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.7);
 }
 .cta h3 {
   color: #fff;

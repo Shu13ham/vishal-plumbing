@@ -26,7 +26,9 @@
   <header id="header" class="fixed-top ">
     <div class="container d-flex align-items-center justify-content-lg-between">
 
-      <h1 class="logo me-lg-0 fs-14"><a href="index.php">Vishal Plumbing Goa<span>.</span></a></h1>
+      <a href="./" class="logo-img">
+        <img src="assets/img/bw-logo.png" alt="VISHAL PLUMBING CONTRACTOR" width="200">
+      </a>
 
       <nav id="navbar" class="navbar order-last order-lg-0">
         <ul>
@@ -193,7 +195,8 @@
         </div>
 
         <div class="row">
-          <div class="col-lg-4 col-md-6 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="100">
+          <div class="col-lg-4 col-md-6 d-flex align-items-stretch relative" data-aos="zoom-in" data-aos-delay="100">
+            <img src="assets/img/house.jpg" alt="">
             <div class="icon-box">
               <div class="icon"><i class="bx bxl-dribbble"></i></div>
               <h4><a href="">House/Building Plumbing</a></h4>
@@ -202,7 +205,8 @@
             </div>
           </div>
 
-          <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-md-0" data-aos="zoom-in" data-aos-delay="200">
+          <div class="col-lg-4 col-md-6 d-flex align-items-stretch relative mt-4 mt-md-0" data-aos="zoom-in" data-aos-delay="200">
+            <img src="assets/img/shop.jpg" alt="">
             <div class="icon-box">
               <div class="icon"><i class="bx bx-file"></i></div>
               <h4><a href="">Private-Shop Plumbing</a></h4>
@@ -211,7 +215,8 @@
             </div>
           </div>
 
-          <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-lg-0" data-aos="zoom-in" data-aos-delay="300">
+          <div class="col-lg-4 col-md-6 d-flex align-items-stretch relative mt-4 mt-lg-0" data-aos="zoom-in" data-aos-delay="300">
+            <img src="assets/img/society.jpg" alt="">
             <div class="icon-box">
               <div class="icon"><i class="bx bx-tachometer"></i></div>
               <h4><a href="">Housing-Society Plumbing</a></h4>
@@ -220,7 +225,8 @@
             </div>
           </div>
 
-          <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4" data-aos="zoom-in" data-aos-delay="100">
+          <div class="col-lg-4 col-md-6 d-flex align-items-stretch relative mt-4" data-aos="zoom-in" data-aos-delay="100">
+            <img src="assets/img/office.jpg" alt="">
             <div class="icon-box">
               <div class="icon"><i class="bx bx-world"></i></div>
               <h4><a href="">Office Plumbing</a></h4>
@@ -229,7 +235,8 @@
             </div>
           </div>
 
-          <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4" data-aos="zoom-in" data-aos-delay="200">
+          <div class="col-lg-4 col-md-6 d-flex align-items-stretch relative mt-4" data-aos="zoom-in" data-aos-delay="200">
+            <img src="assets/img/outstation.jpg" alt="">
             <div class="icon-box">
               <div class="icon"><i class="bx bx-slideshow"></i></div>
               <h4><a href="">Outstation Plumbing</a></h4>
@@ -238,7 +245,8 @@
             </div>
           </div>
 
-          <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4" data-aos="zoom-in" data-aos-delay="300">
+          <div class="col-lg-4 col-md-6 d-flex align-items-stretch relative mt-4" data-aos="zoom-in" data-aos-delay="300">
+            <img src="assets/img/anywhere.jpg" alt="">
             <div class="icon-box">
               <div class="icon"><i class="bx bx-arch"></i></div>
               <h4><a href="">Anywhere you want!</a></h4>
@@ -254,7 +262,7 @@
     <!-- End Services Section -->
 
     <!-- ======= Cta Section ======= -->
-    <section id="cta" class="cta">
+    <section id="cta call-to-action" class="cta">
       <div class="container" data-aos="zoom-in">
 
         <div class="text-center">
@@ -420,8 +428,8 @@
       <div class="container" data-aos="fade-up">
 
         <div class="row no-gutters">
-          <div class="image col-xl-5 d-flex align-items-stretch justify-content-center justify-content-lg-start" data-aos="fade-right" data-aos-delay="100"></div>
-          <div class="col-xl-7 ps-lg-5 pe-lg-1 d-flex align-items-stretch" data-aos="fade-left" data-aos-delay="100">
+          <div class="image col-xl-5 d-flex align-items-stretch relative justify-content-center justify-content-lg-start" data-aos="fade-right" data-aos-delay="100"></div>
+          <div class="col-xl-7 ps-lg-5 pe-lg-1 d-flex align-items-stretch relative" data-aos="fade-left" data-aos-delay="100">
             <div class="content d-flex flex-column justify-content-center">
               <h3>We're Piping Hot for Your Plumbing Needs</h3>
               <p>e pride ourselves on our flexibility and reach. Our plumbing services are available wherever you need them. Whether it's your home, office, 
