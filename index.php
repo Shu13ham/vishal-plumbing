@@ -195,63 +195,69 @@
         </div>
 
         <div class="row">
-          <div class="col-lg-4 col-md-6 d-flex align-items-stretch relative" data-aos="zoom-in" data-aos-delay="100">
-            <img src="assets/img/house.jpg" alt="">
-            <div class="icon-box">
-              <div class="icon"><i class="bx bxl-dribbble"></i></div>
-              <h4><a href="">House/Building Plumbing</a></h4>
-              <p class="mb-3">Our expertise in house and building plumbing services ensures that your residential or commercial property's water supply and drainage systems remain in perfect working order. </p>
-              <p class="mb-3 d-sm-none">From fixing leaks to installing new plumbing fixtures, we are your trusted partner for maintaining the plumbing integrity of your space.</p>
+          <div class="col-lg-4 col-md-6 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="100">
+            <div class="relative" style="background-image:url('assets/img/house.jpg')">
+              <div class="icon-box">
+                <div class="icon"><i class="bx bxl-dribbble"></i></div>
+                  <h4><a href="">House/Building Plumbing</a></h4>
+                  <p class="mb-3">Our expertise in house and building plumbing services ensures that your residential or commercial property's water supply and drainage systems remain in perfect working order. </p>
+                  <p class="mb-3 d-sm-none">From fixing leaks to installing new plumbing fixtures, we are your trusted partner for maintaining the plumbing integrity of your space.</p>
+                </div>
             </div>
           </div>
 
-          <div class="col-lg-4 col-md-6 d-flex align-items-stretch relative mt-4 mt-md-0" data-aos="zoom-in" data-aos-delay="200">
-            <img src="assets/img/shop.jpg" alt="">
-            <div class="icon-box">
-              <div class="icon"><i class="bx bx-file"></i></div>
-              <h4><a href="">Private-Shop Plumbing</a></h4>
-              <p class="mb-3">Private shops and small businesses have unique plumbing needs, and our specialized private-shop plumbing services cater to these requirements.</p> 
-              <p class="mb-3 d-sm-none">We offer tailored solutions to keep your shop's water and sanitation systems running smoothly, ensuring minimal downtime for your business.</p>
+          <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-md-0" data-aos="zoom-in" data-aos-delay="200">
+            <div class="relative" style="background-image:url('assets/img/shop.jpg')">
+              <div class="icon-box">
+                <div class="icon"><i class="bx bx-file"></i></div>
+                  <h4><a href="">Private-Shop Plumbing</a></h4>
+                  <p class="mb-3">Private shops and small businesses have unique plumbing needs, and our specialized private-shop plumbing services cater to these requirements.</p> 
+                  <p class="mb-3 d-sm-none">We offer tailored solutions to keep your shop's water and sanitation systems running smoothly, ensuring minimal downtime for your business.</p>
+                </div>
             </div>
           </div>
 
-          <div class="col-lg-4 col-md-6 d-flex align-items-stretch relative mt-4 mt-lg-0" data-aos="zoom-in" data-aos-delay="300">
-            <img src="assets/img/society.jpg" alt="">
-            <div class="icon-box">
-              <div class="icon"><i class="bx bx-tachometer"></i></div>
-              <h4><a href="">Housing-Society Plumbing</a></h4>
-              <p class="mb-3">For housing societies and apartment complexes, our housing-society plumbing services provide comprehensive solutions to address the collective plumbing needs of multiple units.</p> 
-              <p class="mb-3 d-sm-none">We ensure that the water supply and drainage systems within your community are well-maintained, promoting a high standard of living for all residents.</p>
+          <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-lg-0" data-aos="zoom-in" data-aos-delay="300">
+            <div class="relative" style="background-image:url('assets/img/society.jpg')">
+              <div class="icon-box">
+                <div class="icon"><i class="bx bx-tachometer"></i></div>
+                  <h4><a href="">Housing-Society Plumbing</a></h4>
+                  <p class="mb-3">For housing societies and apartment complexes, our housing-society plumbing services provide comprehensive solutions to address the collective plumbing needs of multiple units.</p> 
+                  <p class="mb-3 d-sm-none">We ensure that the water supply and drainage systems within your community are well-maintained, promoting a high standard of living for all residents.</p>
+                </div>
             </div>
           </div>
 
-          <div class="col-lg-4 col-md-6 d-flex align-items-stretch relative mt-4" data-aos="zoom-in" data-aos-delay="100">
-            <img src="assets/img/office.jpg" alt="">
-            <div class="icon-box">
-              <div class="icon"><i class="bx bx-world"></i></div>
-              <h4><a href="">Office Plumbing</a></h4>
-              <p class="mb-3">A well-functioning plumbing system is crucial for the productivity and comfort of your office space.</p> 
-              <p class="mb-3 d-sm-none">Our office plumbing services are designed to meet the unique demands of commercial properties, offering prompt repairs and installations to keep your workspace efficient and welcoming.</p>
+          <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4" data-aos="zoom-in" data-aos-delay="100">
+            <div class="relative" style="background-image:url('assets/img/office.jpg')">
+              <div class="icon-box">
+                <div class="icon"><i class="bx bx-world"></i></div>
+                  <h4><a href="">Office Plumbing</a></h4>
+                  <p class="mb-3">A well-functioning plumbing system is crucial for the productivity and comfort of your office space.</p> 
+                  <p class="mb-3 d-sm-none">Our office plumbing services are designed to meet the unique demands of commercial properties, offering prompt repairs and installations to keep your workspace efficient and welcoming.</p>
+                </div>
             </div>
           </div>
 
-          <div class="col-lg-4 col-md-6 d-flex align-items-stretch relative mt-4" data-aos="zoom-in" data-aos-delay="200">
-            <img src="assets/img/outstation.jpg" alt="">
-            <div class="icon-box">
-              <div class="icon"><i class="bx bx-slideshow"></i></div>
-              <h4><a href="">Outstation Plumbing</a></h4>
-              <p class="mb-3">Our outstation plumbing services extend beyond the city limits. Whether you have a remote cabin, vacation home, or an out-of-town property</p> 
-              <p class="mb-3 d-sm-none">we are ready to provide expert plumbing solutions, ensuring that your plumbing needs are met, no matter where your property is located.</p>
+          <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4" data-aos="zoom-in" data-aos-delay="200">
+            <div class="relative" style="background-image:url('assets/img/outstation.jpg')">
+              <div class="icon-box">
+                <div class="icon"><i class="bx bx-slideshow"></i></div>
+                  <h4><a href="">Outstation Plumbing</a></h4>
+                  <p class="mb-3">Our outstation plumbing services extend beyond the city limits. Whether you have a remote cabin, vacation home, or an out-of-town property</p> 
+                  <p class="mb-3 d-sm-none">we are ready to provide expert plumbing solutions, ensuring that your plumbing needs are met, no matter where your property is located.</p>
+                </div>
             </div>
           </div>
 
-          <div class="col-lg-4 col-md-6 d-flex align-items-stretch relative mt-4" data-aos="zoom-in" data-aos-delay="300">
-            <img src="assets/img/anywhere.jpg" alt="">
-            <div class="icon-box">
-              <div class="icon"><i class="bx bx-arch"></i></div>
-              <h4><a href="">Anywhere you want!</a></h4>
-              <p class="mb-3">We pride ourselves on our flexibility and reach. Our plumbing services are available wherever you need them.</p> 
-              <p class="mb-3 d-sm-none">Whether it's your home, office, shop, or any other location, we're committed to delivering top-notch plumbing services to meet your specific requirements, anytime, and anywhere.</p>
+          <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4" data-aos="zoom-in" data-aos-delay="300">
+            <div class="relative" style="background-image:url('assets/img/anywhere.jpg')">
+              <div class="icon-box">
+                <div class="icon"><i class="bx bx-arch"></i></div>
+                  <h4><a href="">Anywhere you want!</a></h4>
+                  <p class="mb-3">We pride ourselves on our flexibility and reach. Our plumbing services are available wherever you need them.</p> 
+                  <p class="mb-3 d-sm-none">Whether it's your home, office, shop, or any other location, we're committed to delivering top-notch plumbing services to meet your specific requirements, anytime, and anywhere.</p>
+                </div>
             </div>
           </div>
 
@@ -711,23 +717,15 @@
       <div class="container">
         <div class="row">
 
-          <div class="col-lg-3 col-md-6">
+          <div class="col-lg-3 col-md-6 footer-logo">
             <div class="footer-info">
-              <h3>Vishal Plumbing<span>.</span></h3>
-              <p>
-                A108 Adam Street <br>
-                NY 535022, USA<br><br>
-                <strong>Phone:</strong> +1 5589 55488 55<br>
-                <strong>Email:</strong> info@example.com<br>
-              </p>
-              <div class="social-links mt-3">
-                <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
-                <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
-              </div>
+              <a href="./" class="logo-img">
+                <img src="assets/img/bw-logo.png" alt="VISHAL PLUMBING CONTRACTOR" width="250">
+              </a>
             </div>
           </div>
 
-          <div class="col-lg-2 col-md-6 footer-links">
+          <div class="col-lg-3 col-md-6 footer-links">
             <h4>Useful Links</h4>
             <ul>
               <li><i class="bx bx-chevron-right"></i> <a href="#hero">Home</a></li>
@@ -748,7 +746,18 @@
               <li><i class="bx bx-chevron-right"></i> <a href="#">Outstation Plumbing</a></li>
             </ul>
           </div>
-
+          <div class="col-lg-3 col-md-6 footer-links">
+            <p>
+              A108 Adam Street <br>
+              NY 535022, USA<br><br>
+              <strong>Phone:</strong> +1 5589 55488 55<br>
+              <strong>Email:</strong> info@example.com<br>
+            </p>
+            <div class="social-links mt-3">
+              <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
+              <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
+            </div>
+          </div>
         </div>
       </div>
     </div>
