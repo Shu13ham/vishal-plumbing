@@ -59,7 +59,7 @@
         </div>
       </div>
 
-      <div class="row gy-4 mt-5 justify-content-center" data-aos="zoom-in" data-aos-delay="250">
+      <div class="row gy-4 mt-5 mobile-mt-2 justify-content-center" data-aos="zoom-in" data-aos-delay="250">
         <div class="col-xl-2 col-md-4">
           <div class="icon-box">
             <i class="ri-store-line"></i>
@@ -277,7 +277,7 @@
           <p class="d-sm-none"> 
             Our team of skilled professionals is on call, committed to providing prompt and reliable services tailored to your needs. 
             Don't wait until a small drip becomes a major headache. Reach out now, and let us ensure your plumbing runs smoothly, giving you peace of mind in every drop.</p>
-          <a href="https://api.WhatsApp.com/send?phone=+91-0000000000" class="cta-btn"><i class="fa fa-whatsapp">Call To Action</i></a>
+          <a href="https://api.WhatsApp.com/send?phone=+91-7775915466" class="cta-btn"><i class="bi bi-whatsapp" style="color:#00a884"><b> Message on Whatsapp</i></a>
         </div>
 
       </div>
@@ -308,12 +308,12 @@
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-app">
             <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/portfolio-1.jpg" class="img-fluid" alt="">
+              <img src="assets/img/about.jpg" class="img-fluid" alt="">
               <div class="portfolio-info">
                 <h4>App 1</h4>
                 <p>App</p>
                 <div class="portfolio-links">
-                  <a href="assets/img/portfolio/portfolio-1.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="App 1"><i class="bx bx-fullscreen"></i></a>
+                  <a href="assets/img/about.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="App 1"><i class="bx bx-fullscreen"></i></a>
                 </div>
               </div>
             </div>
@@ -321,12 +321,12 @@
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-web">
             <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/portfolio-2.jpg" class="img-fluid" alt="">
+              <img src="assets/img/anywhere.jpg" class="img-fluid" alt="">
               <div class="portfolio-info">
                 <h4>Web 3</h4>
                 <p>Web</p>
                 <div class="portfolio-links">
-                  <a href="assets/img/portfolio/portfolio-2.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Web 3"><i class="bx bx-fullscreen"></i></a>
+                  <a href="assets/img/anywhere.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Web 3"><i class="bx bx-fullscreen"></i></a>
                 </div>
               </div>
             </div>
@@ -334,12 +334,12 @@
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-app">
             <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/portfolio-3.jpg" class="img-fluid" alt="">
+              <img src="assets/img/cta-bg.jpg" class="img-fluid" alt="">
               <div class="portfolio-info">
                 <h4>App 2</h4>
                 <p>App</p>
                 <div class="portfolio-links">
-                  <a href="assets/img/portfolio/portfolio-3.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="App 2"><i class="bx bx-fullscreen"></i></a>
+                  <a href="assets/img/cta-bg.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="App 2"><i class="bx bx-fullscreen"></i></a>
                 </div>
               </div>
             </div>
@@ -347,12 +347,12 @@
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-card">
             <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/portfolio-4.jpg" class="img-fluid" alt="">
+              <img src="assets/img/counts-img.jpg" class="img-fluid" alt="">
               <div class="portfolio-info">
                 <h4>Card 2</h4>
                 <p>Card</p>
                 <div class="portfolio-links">
-                  <a href="assets/img/portfolio/portfolio-4.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Card 2"><i class="bx bx-fullscreen"></i></a>
+                  <a href="assets/img/counts-img.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Card 2"><i class="bx bx-fullscreen"></i></a>
                 </div>
               </div>
             </div>
@@ -360,12 +360,12 @@
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-web">
             <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/portfolio-5.jpg" class="img-fluid" alt="">
+              <img src="assets/img/features.jpg" class="img-fluid" alt="">
               <div class="portfolio-info">
                 <h4>Web 2</h4>
                 <p>Web</p>
                 <div class="portfolio-links">
-                  <a href="assets/img/portfolio/portfolio-5.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Web 2"><i class="bx bx-fullscreen"></i></a>
+                  <a href="assets/img/features.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Web 2"><i class="bx bx-fullscreen"></i></a>
                 </div>
               </div>
             </div>
@@ -373,12 +373,12 @@
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-app">
             <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/portfolio-6.jpg" class="img-fluid" alt="">
+              <img src="assets/img/hero-bg.jpg" class="img-fluid" alt="">
               <div class="portfolio-info">
                 <h4>App 3</h4>
                 <p>App</p>
                 <div class="portfolio-links">
-                  <a href="assets/img/portfolio/portfolio-6.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="App 3"><i class="bx bx-fullscreen"></i></a>
+                  <a href="assets/img/hero-bg.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="App 3"><i class="bx bx-fullscreen"></i></a>
                 </div>
               </div>
             </div>
@@ -386,12 +386,12 @@
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-card">
             <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/portfolio-7.jpg" class="img-fluid" alt="">
+              <img src="assets/img/house.jpg" class="img-fluid" alt="">
               <div class="portfolio-info">
                 <h4>Card 1</h4>
                 <p>Card</p>
                 <div class="portfolio-links">
-                  <a href="assets/img/portfolio/portfolio-7.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Card 1"><i class="bx bx-fullscreen"></i></a>
+                  <a href="assets/img/house.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Card 1"><i class="bx bx-fullscreen"></i></a>
                 </div>
               </div>
             </div>
@@ -399,12 +399,12 @@
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-card">
             <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/portfolio-8.jpg" class="img-fluid" alt="">
+              <img src="assets/img/office.jpg" class="img-fluid" alt="">
               <div class="portfolio-info">
                 <h4>Card 3</h4>
                 <p>Card</p>
                 <div class="portfolio-links">
-                  <a href="assets/img/portfolio/portfolio-8.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Card 3"><i class="bx bx-fullscreen"></i></a>
+                  <a href="assets/img/office.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Card 3"><i class="bx bx-fullscreen"></i></a>
                 </div>
               </div>
             </div>
@@ -412,17 +412,55 @@
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-web">
             <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/portfolio-9.jpg" class="img-fluid" alt="">
+              <img src="assets/img/outstation.jpg" class="img-fluid" alt="">
               <div class="portfolio-info">
                 <h4>Web 3</h4>
                 <p>Web</p>
                 <div class="portfolio-links">
-                  <a href="assets/img/portfolio/portfolio-9.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Web 3"><i class="bx bx-fullscreen"></i></a>
+                  <a href="assets/img/outstation.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Web 3"><i class="bx bx-fullscreen"></i></a>
                 </div>
               </div>
             </div>
           </div>
 
+          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+            <div class="portfolio-wrap">
+              <img src="assets/img/shop.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Web 3</h4>
+                <p>Web</p>
+                <div class="portfolio-links">
+                  <a href="assets/img/shop.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Web 3"><i class="bx bx-fullscreen"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+            <div class="portfolio-wrap">
+              <img src="assets/img/society.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Web 3</h4>
+                <p>Web</p>
+                <div class="portfolio-links">
+                  <a href="assets/img/society.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Web 3"><i class="bx bx-fullscreen"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+            <div class="portfolio-wrap">
+              <img src="assets/img/testimonials-bg.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Web 3</h4>
+                <p>Web</p>
+                <div class="portfolio-links">
+                  <a href="assets/img/testimonials-bg.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Web 3"><i class="bx bx-fullscreen"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
 
       </div>
@@ -642,35 +680,35 @@
         </div>
 
         <div>
-          <iframe style="border:0; width: 100%; height: 270px;" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d808.2628266421216!2d73.82635182245319!3d15.49692700353389!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bbfc08ee49ea94f%3A0xcaced802ba2e4daf!2sWagles!5e0!3m2!1sen!2sin!4v1636188715347!5m2!1sen!2sin" frameborder="0" allowfullscreen></iframe>
+        <iframe style="border:0; width: 100%; height: 270px;" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2871.1324046660256!2d73.83690955654369!3d15.602829936261523!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bbfeb91b1101321%3A0xf4967b58f20cce88!2sMoira!5e0!3m2!1sen!2sin!4v1698319034811!5m2!1sen!2sin"  frameborder="0" allowfullscreen></iframe>
         </div>
 
             <div class="info">
               <div class="address">
                 <i class="bi bi-geo-alt"></i>
                 <h4>Location:</h4>
-                <p>A108 Adam Street, New York, NY 535022</p>
+                <p>House no. EHN-I-R-32, Raint Wado, Moira, Mapusa, North Goa, 403507</p>
               </div>
 
               <div class="email">
-                <a href="mailto:info@example.com">
+                <a href="mailto:muttuhasagol1978@gmail.com">
                   <i class="bi bi-envelope"></i>
                   <h4>Email:</h4>
-                  <p>info@example.com</p>
+                  <p>muttuhasagol1978@gmail.com</p>
                 </a>
               </div>
 
               <div class="phone">
                 <i class="bi bi-phone"></i>
                 <h4>Call:</h4>
-                <p>+1 5589 55488 55s</p>
+                <p>+91-9823846252</p>
               </div>
 
               <div class="phone">
-                <a href="https://api.WhatsApp.com/send?phone=+91-0000000000">
+                <a href="https://api.WhatsApp.com/send?phone=+91-7775915466">
                   <i class="bi bi-whatsapp"></i>
                   <h4>Whatsapp:</h4>
-                  <p>+1 5589 55488 55s</p>
+                  <p>+91-7775915466</p>
                 </a>
               </div>
 
@@ -748,15 +786,14 @@
           </div>
           <div class="col-lg-3 col-md-6 footer-links">
             <p>
-              A108 Adam Street <br>
-              NY 535022, USA<br><br>
-              <strong>Phone:</strong> +1 5589 55488 55<br>
-              <strong>Email:</strong> info@example.com<br>
+              <strong><span class="primary-color">Address:</span></strong> House no. EHN-I-R-32, Raint Wado, Moira, Mapusa, North Goa, 403507<br><br>
+              <strong><span class="primary-color">Phone:</span></strong> +91-9823846252<br>
+              <strong><span class="primary-color">Email:</span></strong> muttuhasagol1978@gmail.com<br>
             </p>
-            <div class="social-links mt-3">
+            <!-- <div class="social-links mt-3">
               <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
               <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
-            </div>
+            </div> -->
           </div>
         </div>
       </div>
