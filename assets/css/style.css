@@ -28,7 +28,7 @@ h1, h2, h3, h4, h5, h6 {
   font-family: "Raleway", sans-serif;
 }
 h1.heading-title{
-  font-size: 60px !important;
+  font-size: 50px !important;
   font-weight: 700 !important;
   line-height: 64px !important;
 }
@@ -804,6 +804,7 @@ section {
   margin-bottom: 5px;
   transition: all 0.3s ease-in-out;
   border-radius: 3px;
+  border: 1px solid #ffc451;
 }
 .portfolio #portfolio-flters li:hover, .portfolio #portfolio-flters li.filter-active {
   color: #151515;
@@ -1487,4 +1488,18 @@ section {
   text-align: center;
   font-size: 13px;
   color: #fff;
+}
+@media screen and (max-width: 768px) {
+  .footer-info{
+    text-align: center;
+  } 
+  .footer-info img{
+    width: 135px;
+  }
+  .navbar-mobile a{
+    font-size: 20px;
+  }
+  .d-mobile-none{
+    display: none !important;
+  }
 }

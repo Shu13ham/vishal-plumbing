@@ -5,8 +5,8 @@
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
   <title>Vishal Plumbing Contractor Goa</title>
-  <meta content="" name="description">
-  <meta content="" name="keywords">
+  <meta name="description" content="Trusted plumbing services in Goa offering comprehensive solutions for residential and commercial plumbing needs. Our experienced plumbers provide reliable repairs, installations, and maintenance for kitchens, bathrooms, drainage, pipes, and more. Get quality service and 24/7 emergency support. Contact us for affordable and efficient plumbing solutions.">
+  <meta name="keywords" content="Plumbing Services Goa, Plumbing Contractors Goa, Residential Plumbing Goa, Commercial Plumbing Services Goa, Emergency Plumbing Goa, Plumbing Repairs Goa, Plumbing Installation Goa, Drain Cleaning Services Goa, Pipe Repair and Replacement Goa, Water Heater Installation Goa, Leak Detection Services Goa, Bathroom Plumbing Goa, Kitchen Plumbing Services Goa, Sewer Line Repair Goa, Gas Line Installation Goa, Plumbing Maintenance Goa, 24/7 Plumbing Services Goa, Experienced Plumbers in Goa, Affordable Plumbing Services Goa, Plumbing Solutions in Goa">
   <link href="assets/img/favicon.png" rel="icon">
   <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
@@ -47,7 +47,7 @@
     </div>
   </header>
   <!-- End Header -->
-
+  
   <!-- ======= Hero Section ======= -->
   <section id="hero" class="d-flex align-items-center justify-content-center">
     <div class="container" data-aos="fade-up">
@@ -105,7 +105,7 @@
 
         <div class="row">
           <div class="col-lg-6 order-1 order-lg-2" data-aos="fade-left" data-aos-delay="100">
-            <img src="assets/img/about.jpg" class="img-fluid" alt="">
+            <img src="assets/img/about.jpg" class="img-fluid" alt="Vishal Plumbing Contractor Goa">
           </div>
           <div class="col-lg-6 pt-4 pt-lg-0 order-2 order-lg-1 content" data-aos="fade-right" data-aos-delay="100">
             <h3>Pipes, Problems, and Professional Solutions.</h3>
@@ -118,7 +118,7 @@
               <li><i class="ri-check-double-line"></i> We're committed to delivering efficient, reliable solutions.</li>
               <li><i class="ri-check-double-line"></i> We take pride in our work and strive for excellence in every job we undertake. </li>
             </ul>
-            <p>
+            <p class="d-mobile-none">
             Don't let plumbing issues disrupt your daily life. Contact us today for professional plumbing services that you can trust.
             We're your plumbing partners, ready to ensure your home's plumbing functions flawlessly. 
             </p>
@@ -135,14 +135,14 @@
 
         <div class="clients-slider swiper">
           <div class="swiper-wrapper align-items-center">
-            <div class="swiper-slide"><img src="assets/img/clients/client-1.png" class="img-fluid" alt=""></div>
-            <div class="swiper-slide"><img src="assets/img/clients/client-2.png" class="img-fluid" alt=""></div>
-            <div class="swiper-slide"><img src="assets/img/clients/client-3.png" class="img-fluid" alt=""></div>
-            <div class="swiper-slide"><img src="assets/img/clients/client-4.png" class="img-fluid" alt=""></div>
-            <div class="swiper-slide"><img src="assets/img/clients/client-5.png" class="img-fluid" alt=""></div>
-            <div class="swiper-slide"><img src="assets/img/clients/client-6.png" class="img-fluid" alt=""></div>
-            <div class="swiper-slide"><img src="assets/img/clients/client-7.png" class="img-fluid" alt=""></div>
-            <div class="swiper-slide"><img src="assets/img/clients/client-8.png" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="assets/img/clients/client-1.png" class="img-fluid" alt="Vishal Plumbing Contractor Goa"></div>
+            <div class="swiper-slide"><img src="assets/img/clients/client-2.png" class="img-fluid" alt="Vishal Plumbing Contractor Goa"></div>
+            <div class="swiper-slide"><img src="assets/img/clients/client-3.png" class="img-fluid" alt="Vishal Plumbing Contractor Goa"></div>
+            <div class="swiper-slide"><img src="assets/img/clients/client-4.png" class="img-fluid" alt="Vishal Plumbing Contractor Goa"></div>
+            <div class="swiper-slide"><img src="assets/img/clients/client-5.png" class="img-fluid" alt="Vishal Plumbing Contractor Goa"></div>
+            <div class="swiper-slide"><img src="assets/img/clients/client-6.png" class="img-fluid" alt="Vishal Plumbing Contractor Goa"></div>
+            <div class="swiper-slide"><img src="assets/img/clients/client-7.png" class="img-fluid" alt="Vishal Plumbing Contractor Goa"></div>
+            <div class="swiper-slide"><img src="assets/img/clients/client-8.png" class="img-fluid" alt="Vishal Plumbing Contractor Goa"></div>
           </div>
           <div class="swiper-pagination"></div>
         </div>
@@ -152,7 +152,7 @@
     <!-- End Clients Section -->
 
     <!-- ======= Features Section ======= -->
-    <section id="features" class="features">
+    <section id="features" class="features d-mobile-none">
       <div class="container" data-aos="fade-up">
 
         <div class="row">
@@ -298,9 +298,9 @@
           <div class="col-lg-12 d-flex justify-content-center">
             <ul id="portfolio-flters">
               <li data-filter="*" class="filter-active">All</li>
-              <li data-filter=".filter-app">App</li>
-              <li data-filter=".filter-card">Card</li>
-              <li data-filter=".filter-web">Web</li>
+              <li data-filter=".filter-web">Commercial Projects</li>
+              <li data-filter=".filter-app">Private Projects</li>
+              <li data-filter=".filter-card">Household Projects</li>
             </ul>
           </div>
         </div>
@@ -309,7 +309,7 @@
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-app">
             <div class="portfolio-wrap">
-              <img src="assets/img/about.jpg" class="img-fluid" alt="">
+              <img src="assets/img/about.jpg" class="img-fluid" alt="Vishal Plumbing Contractor Goa">
               <div class="portfolio-info">
                 <h4>App 1</h4>
                 <p>App</p>
@@ -322,7 +322,7 @@
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-web">
             <div class="portfolio-wrap">
-              <img src="assets/img/anywhere.jpg" class="img-fluid" alt="">
+              <img src="assets/img/anywhere.jpg" class="img-fluid" alt="Vishal Plumbing Contractor Goa">
               <div class="portfolio-info">
                 <h4>Web 3</h4>
                 <p>Web</p>
@@ -335,7 +335,7 @@
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-app">
             <div class="portfolio-wrap">
-              <img src="assets/img/cta-bg.jpg" class="img-fluid" alt="">
+              <img src="assets/img/cta-bg.jpg" class="img-fluid" alt="Vishal Plumbing Contractor Goa">
               <div class="portfolio-info">
                 <h4>App 2</h4>
                 <p>App</p>
@@ -348,7 +348,7 @@
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-card">
             <div class="portfolio-wrap">
-              <img src="assets/img/counts-img.jpg" class="img-fluid" alt="">
+              <img src="assets/img/counts-img.jpg" class="img-fluid" alt="Vishal Plumbing Contractor Goa">
               <div class="portfolio-info">
                 <h4>Card 2</h4>
                 <p>Card</p>
@@ -361,7 +361,7 @@
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-web">
             <div class="portfolio-wrap">
-              <img src="assets/img/features.jpg" class="img-fluid" alt="">
+              <img src="assets/img/features.jpg" class="img-fluid" alt="Vishal Plumbing Contractor Goa">
               <div class="portfolio-info">
                 <h4>Web 2</h4>
                 <p>Web</p>
@@ -374,7 +374,7 @@
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-app">
             <div class="portfolio-wrap">
-              <img src="assets/img/hero-bg.jpg" class="img-fluid" alt="">
+              <img src="assets/img/hero-bg.jpg" class="img-fluid" alt="Vishal Plumbing Contractor Goa">
               <div class="portfolio-info">
                 <h4>App 3</h4>
                 <p>App</p>
@@ -387,7 +387,7 @@
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-card">
             <div class="portfolio-wrap">
-              <img src="assets/img/house.jpg" class="img-fluid" alt="">
+              <img src="assets/img/house.jpg" class="img-fluid" alt="Vishal Plumbing Contractor Goa">
               <div class="portfolio-info">
                 <h4>Card 1</h4>
                 <p>Card</p>
@@ -400,7 +400,7 @@
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-card">
             <div class="portfolio-wrap">
-              <img src="assets/img/office.jpg" class="img-fluid" alt="">
+              <img src="assets/img/office.jpg" class="img-fluid" alt="Vishal Plumbing Contractor Goa">
               <div class="portfolio-info">
                 <h4>Card 3</h4>
                 <p>Card</p>
@@ -413,7 +413,7 @@
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-web">
             <div class="portfolio-wrap">
-              <img src="assets/img/outstation.jpg" class="img-fluid" alt="">
+              <img src="assets/img/outstation.jpg" class="img-fluid" alt="Vishal Plumbing Contractor Goa">
               <div class="portfolio-info">
                 <h4>Web 3</h4>
                 <p>Web</p>
@@ -426,7 +426,7 @@
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-web">
             <div class="portfolio-wrap">
-              <img src="assets/img/shop.jpg" class="img-fluid" alt="">
+              <img src="assets/img/shop.jpg" class="img-fluid" alt="Vishal Plumbing Contractor Goa">
               <div class="portfolio-info">
                 <h4>Web 3</h4>
                 <p>Web</p>
@@ -439,7 +439,7 @@
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-web">
             <div class="portfolio-wrap">
-              <img src="assets/img/society.jpg" class="img-fluid" alt="">
+              <img src="assets/img/society.jpg" class="img-fluid" alt="Vishal Plumbing Contractor Goa">
               <div class="portfolio-info">
                 <h4>Web 3</h4>
                 <p>Web</p>
@@ -452,7 +452,7 @@
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-web">
             <div class="portfolio-wrap">
-              <img src="assets/img/testimonials-bg.jpg" class="img-fluid" alt="">
+              <img src="assets/img/testimonials-bg.jpg" class="img-fluid" alt="Vishal Plumbing Contractor Goa">
               <div class="portfolio-info">
                 <h4>Web 3</h4>
                 <p>Web</p>
@@ -477,7 +477,7 @@
           <div class="col-xl-7 ps-lg-5 pe-lg-1 d-flex align-items-stretch relative" data-aos="fade-left" data-aos-delay="100">
             <div class="content d-flex flex-column justify-content-center">
               <h3>We're Piping Hot for Your Plumbing Needs</h3>
-              <p>e pride ourselves on our flexibility and reach. Our plumbing services are available wherever you need them. Whether it's your home, office, 
+              <p class="d-mobile-none">We pride ourselves on our flexibility and reach. Our plumbing services are available wherever you need them. Whether it's your home, office, 
                 shop, or any other location, we're committed to delivering top-notch plumbing services to meet your specific requirements, anytime, and anywhere.</p>
               <div class="row">
                 <div class="col-md-6 d-md-flex align-items-md-stretch">
@@ -512,7 +512,7 @@
 
             <div class="swiper-slide">
               <div class="testimonial-item">
-                <img src="assets/img/testimonials/4.png" class="testimonial-img" alt="">
+                <img src="assets/img/testimonials/4.png" class="testimonial-img" alt="Vishal Plumbing Contractor Goa">
                 <h3>Kalpesh Govekar</h3>
                 <h4>Resident of &amp; Panjim Goa</h4>
                 <p>
@@ -525,7 +525,7 @@
 
             <div class="swiper-slide">
               <div class="testimonial-item">
-                <img src="assets/img/testimonials/4.png" class="testimonial-img" alt="">
+                <img src="assets/img/testimonials/4.png" class="testimonial-img" alt="Vishal Plumbing Contractor Goa">
                 <h3>Sameer Naik</h3>
                 <h4>Resident of &amp; Mapusa Goa</h4>
                 <p>
@@ -538,7 +538,7 @@
 
             <div class="swiper-slide">
               <div class="testimonial-item">
-                <img src="assets/img/testimonials/5.png" class="testimonial-img" alt="">
+                <img src="assets/img/testimonials/5.png" class="testimonial-img" alt="Vishal Plumbing Contractor Goa">
                 <h3>Jennifer Dias</h3>
                 <h4>Resident of &amp; Old Goa</h4>
                 <p>
@@ -551,7 +551,7 @@
 
             <div class="swiper-slide">
               <div class="testimonial-item">
-                <img src="assets/img/testimonials/4.png" class="testimonial-img" alt="">
+                <img src="assets/img/testimonials/4.png" class="testimonial-img" alt="Vishal Plumbing Contractor Goa">
                 <h3>Mahesh Sawant</h3>
                 <h4>Vitri Labs &amp; Verem Goa</h4>
                 <p>
@@ -564,7 +564,7 @@
 
             <div class="swiper-slide">
               <div class="testimonial-item">
-                <img src="assets/img/testimonials/4.png" class="testimonial-img" alt="">
+                <img src="assets/img/testimonials/4.png" class="testimonial-img" alt="Vishal Plumbing Contractor Goa">
                 <h3>John Lobo</h3>
                 <h4>The Look Salon &amp; Mapusa Goa</h4>
                 <p>
@@ -596,7 +596,7 @@
           <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
             <div class="member" data-aos="fade-up" data-aos-delay="100">
               <div class="member-img">
-                <img src="assets/img/team/team-1.jpg" class="img-fluid" alt="">
+                <img src="assets/img/team/team-1.jpg" class="img-fluid" alt="Vishal Plumbing Contractor Goa">
                 <div class="social">
                   <a href=""><i class="bi bi-twitter"></i></a>
                   <a href=""><i class="bi bi-facebook"></i></a>
@@ -614,7 +614,7 @@
           <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
             <div class="member" data-aos="fade-up" data-aos-delay="200">
               <div class="member-img">
-                <img src="assets/img/team/team-2.jpg" class="img-fluid" alt="">
+                <img src="assets/img/team/team-2.jpg" class="img-fluid" alt="Vishal Plumbing Contractor Goa">
                 <div class="social">
                   <a href=""><i class="bi bi-twitter"></i></a>
                   <a href=""><i class="bi bi-facebook"></i></a>
@@ -632,7 +632,7 @@
           <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
             <div class="member" data-aos="fade-up" data-aos-delay="300">
               <div class="member-img">
-                <img src="assets/img/team/team-3.jpg" class="img-fluid" alt="">
+                <img src="assets/img/team/team-3.jpg" class="img-fluid" alt="Vishal Plumbing Contractor Goa">
                 <div class="social">
                   <a href=""><i class="bi bi-twitter"></i></a>
                   <a href=""><i class="bi bi-facebook"></i></a>
@@ -650,7 +650,7 @@
           <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
             <div class="member" data-aos="fade-up" data-aos-delay="400">
               <div class="member-img">
-                <img src="assets/img/team/team-4.jpg" class="img-fluid" alt="">
+                <img src="assets/img/team/team-4.jpg" class="img-fluid" alt="Vishal Plumbing Contractor Goa">
                 <div class="social">
                   <a href=""><i class="bi bi-twitter"></i></a>
                   <a href=""><i class="bi bi-facebook"></i></a>
@@ -820,7 +820,13 @@
   <script src="assets/vendor/purecounter/purecounter.js"></script>
   <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
   <script src="assets/js/main.js"></script>
-
+  <script>
+      const header = document.querySelector('#header');
+      const headerHeight = header.offsetHeight;
+      const content = document.querySelector('#hero');
+      content.style.paddingTop = `${headerHeight+30}px`;
+      content.style.height = `auto`;
+  </script>
 </body>
 
 </html>
