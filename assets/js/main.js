@@ -280,3 +280,58 @@
   });
 
 })()
+document.addEventListener("DOMContentLoaded", function() {
+  const lazyBgElements = document.querySelectorAll('.lazy-bg');
+
+  const lazyLoad = target => {
+    const io = new IntersectionObserver((entries, observer) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          const element = entry.target;
+          element.style.backgroundImage = `url('../img/counts-img.jpg'})`;
+          observer.disconnect();
+        }
+      });
+    });
+
+    io.observe(target);
+  };
+
+  lazyBgElements.forEach(lazyLoad);
+});
+
+document.addEventListener('DOMContentLoaded', function() {
+  // Function to create and load the YouTube iframe
+  function loadYouTubeIframe() {
+    // Create the iframe element
+    var iframe = document.createElement('iframe');
+    iframe.setAttribute('title', 'Youtube');
+    iframe.setAttribute('class', 'youtube-video');
+    iframe.setAttribute('src', 'https://www.youtube.com/embed/mp3GOx1tPXY');
+    iframe.setAttribute('frameborder', '0');
+    iframe.setAttribute('allowfullscreen', '');
+
+    // Append the iframe to the container
+    var container = document.getElementById('youtube-iframeContainer');
+    container.appendChild(iframe);
+    window.removeEventListener('scroll', loadYouTubeIframe);
+  }
+
+  function loadMapIframe() {
+    // Create the iframe element
+    var iframe = document.createElement('iframe');
+    iframe.setAttribute('title', 'Google map');
+    iframe.setAttribute('style', 'border:0; width: 100%; height: 270px;');
+    iframe.setAttribute('src', 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2871.1324046660256!2d73.83690955654369!3d15.602829936261523!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bbfeb91b1101321%3A0xf4967b58f20cce88!2sMoira!5e0!3m2!1sen!2sin!4v1698319034811!5m2!1sen!2sin');
+
+    // Append the iframe to the container
+    var container = document.getElementById('mapContainer');
+    container.appendChild(iframe);
+    window.removeEventListener('scroll', loadMapIframe);
+  }
+
+  // Call the function to load the iframe once the page is loaded
+  window.addEventListener('scroll', loadYouTubeIframe);
+  window.addEventListener('scroll', loadMapIframe);
+});
+

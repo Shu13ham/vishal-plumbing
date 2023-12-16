@@ -9,7 +9,6 @@
   <meta name="keywords" content="Plumbing Services Goa, Plumbing Contractors Goa, Residential Plumbing Goa, Commercial Plumbing Services Goa, Emergency Plumbing Goa, Plumbing Repairs Goa, Plumbing Installation Goa, Drain Cleaning Services Goa, Pipe Repair and Replacement Goa, Water Heater Installation Goa, Leak Detection Services Goa, Bathroom Plumbing Goa, Kitchen Plumbing Services Goa, Sewer Line Repair Goa, Gas Line Installation Goa, Plumbing Maintenance Goa, 24/7 Plumbing Services Goa, Experienced Plumbers in Goa, Affordable Plumbing Services Goa, Plumbing Solutions in Goa">
   <link href="assets/img/favicon.png" rel="icon">
   <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
   <link href="assets/vendor/aos/aos.css" rel="stylesheet">
   <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
   <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
@@ -185,7 +184,8 @@
 
         <div class="row">
           <div class="col-lg-6" data-aos="fade-right">
-            <iframe title="Youtube" class="youtube-video" src="https://www.youtube.com/embed/mp3GOx1tPXY" frameborder="0" allowfullscreen></iframe>
+            <div id="youtube-iframeContainer"></div>
+            <!-- <iframe title="Youtube" class="youtube-video" src="https://www.youtube.com/embed/mp3GOx1tPXY" frameborder="0" allowfullscreen></iframe> -->
           </div>
           <div class="col-lg-6" data-aos="fade-left" data-aos-delay="100">
             <div class="icon-box mt-5 mt-lg-0" data-aos="zoom-in" data-aos-delay="150">
@@ -227,7 +227,7 @@
 
         <div class="row">
           <div class="col-lg-4 col-md-6 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="100">
-            <div class="relative" style="background-image:url('assets/img/house.jpg')">
+            <div class="relative lazy-bg" style="background-image:url('assets/img/house.jpg')">
               <div class="icon-box">
                 <div class="icon"><i class="bx bxl-dribbble"></i></div>
                   <h3>House/Building Plumbing</h3>
@@ -238,7 +238,7 @@
           </div>
 
           <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-md-0" data-aos="zoom-in" data-aos-delay="200">
-            <div class="relative" style="background-image:url('assets/img/shop.jpg')">
+            <div class="relative lazy-bg" style="background-image:url('assets/img/shop.jpg')">
               <div class="icon-box">
                 <div class="icon"><i class="bx bx-file"></i></div>
                   <h3>Private-Shop Plumbing</h3>
@@ -249,7 +249,7 @@
           </div>
 
           <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-lg-0" data-aos="zoom-in" data-aos-delay="300">
-            <div class="relative" style="background-image:url('assets/img/society.jpg')">
+            <div class="relative lazy-bg" style="background-image:url('assets/img/society.jpg')">
               <div class="icon-box">
                 <div class="icon"><i class="bx bx-tachometer"></i></div>
                   <h3>Housing-Society Plumbing</h3>
@@ -260,7 +260,7 @@
           </div>
 
           <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4" data-aos="zoom-in" data-aos-delay="100">
-            <div class="relative" style="background-image:url('assets/img/office.jpg')">
+            <div class="relative lazy-bg" style="background-image:url('assets/img/office.jpg')">
               <div class="icon-box">
                 <div class="icon"><i class="bx bx-world"></i></div>
                   <h3>Office Plumbing</h3>
@@ -271,7 +271,7 @@
           </div>
 
           <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4" data-aos="zoom-in" data-aos-delay="200">
-            <div class="relative" style="background-image:url('assets/img/outstation.jpg')">
+            <div class="relative lazy-bg" style="background-image:url('assets/img/outstation.jpg')">
               <div class="icon-box">
                 <div class="icon"><i class="bx bx-slideshow"></i></div>
                   <h3>Outstation Plumbing</h3>
@@ -282,7 +282,7 @@
           </div>
 
           <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4" data-aos="zoom-in" data-aos-delay="300">
-            <div class="relative" style="background-image:url('assets/img/anywhere.jpg')">
+            <div class="relative lazy-bg" style="background-image:url('assets/img/anywhere.jpg')">
               <div class="icon-box">
                 <div class="icon"><i class="bx bx-arch"></i></div>
                   <h3>Anywhere you want!</h3>
@@ -299,7 +299,7 @@
     <!-- End Services Section -->
 
     <!-- ======= Cta Section ======= -->
-    <section id="cta call-to-action" class="cta">
+    <section id="cta lazy-bg call-to-action" class="cta">
       <div class="container" data-aos="zoom-in">
 
         <div class="text-center">
@@ -346,7 +346,7 @@
             <div class="portfolio-wrap">
               <img src="assets/img/portfolio/1/7.jpg" class="img-fluid" alt="Vishal Plumbing Contractor Goa" loading="lazy">
               <div class="portfolio-info">
-                <h5>Ashish Construction</h5>
+                <p class="portfolio-title">Ashish Construction</p>
                 <p>Merces Goa</p>
                 <div class="portfolio-links">
                   <a href="assets/img/portfolio/1/7.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Ashish Construction"><i class="bx bx-fullscreen"></i></a>
@@ -358,7 +358,7 @@
             <div class="portfolio-wrap">
               <img src="assets/img/portfolio/1/8.jpg" class="img-fluid" alt="Vishal Plumbing Contractor Goa" loading="lazy">
               <div class="portfolio-info">
-                <h5>Ashish Construction</h5>
+                <p class="portfolio-title">Ashish Construction</p>
                 <p>Merces Goa</p>
                 <div class="portfolio-links">
                   <a href="assets/img/portfolio/1/8.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Ashish Construction"><i class="bx bx-fullscreen"></i></a>
@@ -370,7 +370,7 @@
             <div class="portfolio-wrap">
               <img src="assets/img/portfolio/1/1.jpg" class="img-fluid" alt="Vishal Plumbing Contractor Goa" loading="lazy">
               <div class="portfolio-info">
-                <h5>Ashish Construction</h5>
+                <p class="portfolio-title">Ashish Construction</p>
                 <p>Merces Goa</p>
                 <div class="portfolio-links">
                   <a href="assets/img/portfolio/1/1.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Ashish Construction"><i class="bx bx-fullscreen"></i></a>
@@ -382,7 +382,7 @@
             <div class="portfolio-wrap">
               <img src="assets/img/portfolio/1/2.jpg" class="img-fluid" alt="Vishal Plumbing Contractor Goa" loading="lazy">
               <div class="portfolio-info">
-                <h5>Ashish Construction</h5>
+                <p class="portfolio-title">Ashish Construction</p>
                 <p>Merces Goa</p>
                 <div class="portfolio-links">
                   <a href="assets/img/portfolio/1/2.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Ashish Construction"><i class="bx bx-fullscreen"></i></a>
@@ -394,7 +394,7 @@
             <div class="portfolio-wrap">
               <img src="assets/img/portfolio/1/3.jpg" class="img-fluid" alt="Vishal Plumbing Contractor Goa" loading="lazy">
               <div class="portfolio-info">
-                <h5>Ashish Construction</h5>
+                <p class="portfolio-title">Ashish Construction</p>
                 <p>Merces Goa</p>
                 <div class="portfolio-links">
                   <a href="assets/img/portfolio/1/3.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Ashish Construction"><i class="bx bx-fullscreen"></i></a>
@@ -406,7 +406,7 @@
             <div class="portfolio-wrap">
               <img src="assets/img/portfolio/1/4.jpg" class="img-fluid" alt="Vishal Plumbing Contractor Goa" loading="lazy">
               <div class="portfolio-info">
-                <h5>Ashish Construction</h5>
+                <p class="portfolio-title">Ashish Construction</p>
                 <p>Merces Goa</p>
                 <div class="portfolio-links">
                   <a href="assets/img/portfolio/1/4.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Ashish Construction"><i class="bx bx-fullscreen"></i></a>
@@ -418,7 +418,7 @@
             <div class="portfolio-wrap">
               <img src="assets/img/portfolio/1/5.jpg" class="img-fluid" alt="Vishal Plumbing Contractor Goa" loading="lazy">
               <div class="portfolio-info">
-                <h5>Ashish Construction</h5>
+                <p class="portfolio-title">Ashish Construction</p>
                 <p>Merces Goa</p>
                 <div class="portfolio-links">
                   <a href="assets/img/portfolio/1/5.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Ashish Construction"><i class="bx bx-fullscreen"></i></a>
@@ -430,7 +430,7 @@
             <div class="portfolio-wrap">
               <img src="assets/img/portfolio/1/6.jpg" class="img-fluid" alt="Vishal Plumbing Contractor Goa" loading="lazy">
               <div class="portfolio-info">
-                <h5>Ashish Construction</h5>
+                <p class="portfolio-title">Ashish Construction</p>
                 <p>Merces Goa</p>
                 <div class="portfolio-links">
                   <a href="assets/img/portfolio/1/6.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Ashish Construction"><i class="bx bx-fullscreen"></i></a>
@@ -443,7 +443,7 @@
             <div class="portfolio-wrap">
               <img src="assets/img/portfolio/2/1.jpg" class="img-fluid" alt="Vishal Plumbing Contractor Goa" loading="lazy">
               <div class="portfolio-info">
-                <h5>Nameh Housing</h5>
+                <p class="portfolio-title">Nameh Housing</p>
                 <p>Porvorim Goa</p>
                 <div class="portfolio-links">
                   <a href="assets/img/portfolio/2/1.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Nameh Housing"><i class="bx bx-fullscreen"></i></a>
@@ -455,7 +455,7 @@
             <div class="portfolio-wrap">
               <img src="assets/img/portfolio/2/4.jpg" class="img-fluid" alt="Vishal Plumbing Contractor Goa" loading="lazy">
               <div class="portfolio-info">
-                <h5>Nameh Housing</h5>
+                <p class="portfolio-title">Nameh Housing</p>
                 <p>Porvorim Goa</p>
                 <div class="portfolio-links">
                   <a href="assets/img/portfolio/2/4.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Nameh Housing"><i class="bx bx-fullscreen"></i></a>
@@ -467,7 +467,7 @@
             <div class="portfolio-wrap">
               <img src="assets/img/portfolio/2/2.jpg" class="img-fluid" alt="Vishal Plumbing Contractor Goa" loading="lazy">
               <div class="portfolio-info">
-                <h5>Nameh Housing</h5>
+                <p class="portfolio-title">Nameh Housing</p>
                 <p>Porvorim Goa</p>
                 <div class="portfolio-links">
                   <a href="assets/img/portfolio/2/2.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Nameh Housing"><i class="bx bx-fullscreen"></i></a>
@@ -479,7 +479,7 @@
             <div class="portfolio-wrap">
               <img src="assets/img/portfolio/2/3.jpg" class="img-fluid" alt="Vishal Plumbing Contractor Goa" loading="lazy">
               <div class="portfolio-info">
-                <h5>Nameh Housing</h5>
+                <p class="portfolio-title">Nameh Housing</p>
                 <p>Porvorim Goa</p>
                 <div class="portfolio-links">
                   <a href="aassets/img/portfolio/2/3.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Nameh Housing"><i class="bx bx-fullscreen"></i></a>
@@ -491,7 +491,7 @@
             <div class="portfolio-wrap">
               <img src="assets/img/portfolio/3/4.jpg" class="img-fluid" alt="Vishal Plumbing Contractor Goa" loading="lazy">
               <div class="portfolio-info">
-                <h5>Nameh Housing</h5>
+                <p class="portfolio-title">Nameh Housing</p>
                 <p>Porvorim Goa</p>
                 <div class="portfolio-links">
                   <a href="assets/img/portfolio/3/4.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Nameh Housing"><i class="bx bx-fullscreen"></i></a>
@@ -503,7 +503,7 @@
             <div class="portfolio-wrap">
               <img src="assets/img/portfolio/3/3.jpg" class="img-fluid" alt="Vishal Plumbing Contractor Goa" loading="lazy">
               <div class="portfolio-info">
-                <h5>Nameh Housing</h5>
+                <p class="portfolio-title">Nameh Housing</p>
                 <p>Porvorim Goa</p>
                 <div class="portfolio-links">
                   <a href="assets/img/portfolio/3/3.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Nameh Housing"><i class="bx bx-fullscreen"></i></a>
@@ -515,7 +515,7 @@
             <div class="portfolio-wrap">
               <img src="assets/img/portfolio/3/2.jpg" class="img-fluid" alt="Vishal Plumbing Contractor Goa" loading="lazy">
               <div class="portfolio-info">
-                <h5>Nameh Housing</h5>
+                <p class="portfolio-title">Nameh Housing</p>
                 <p>Porvorim Goa</p>
                 <div class="portfolio-links">
                   <a href="assets/img/portfolio/3/2.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Nameh Housing"><i class="bx bx-fullscreen"></i></a>
@@ -527,7 +527,7 @@
             <div class="portfolio-wrap">
               <img src="assets/img/portfolio/3/1.jpg" class="img-fluid" alt="Vishal Plumbing Contractor Goa" loading="lazy">
               <div class="portfolio-info">
-                <h5>Nameh Housing</h5>
+                <p class="portfolio-title">Nameh Housing</p>
                 <p>Porvorim Goa</p>
                 <div class="portfolio-links">
                   <a href="assets/img/portfolio/3/1.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Nameh Housing"><i class="bx bx-fullscreen"></i></a>
@@ -540,7 +540,7 @@
             <div class="portfolio-wrap">
               <img src="assets/img/portfolio/4/1.jpg" class="img-fluid" alt="Vishal Plumbing Contractor Goa" loading="lazy">
               <div class="portfolio-info">
-                <h5>Rio Luxury Appt</h5>
+                <p class="portfolio-title">Rio Luxury Appt</p>
                 <p>Candolim Goa</p>
                 <div class="portfolio-links">
                   <a href="assets/img/portfolio/4/1.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Rio Luxury Appt"><i class="bx bx-fullscreen"></i></a>
@@ -552,7 +552,7 @@
             <div class="portfolio-wrap">
               <img src="assets/img/portfolio/4/2.jpg" class="img-fluid" alt="Vishal Plumbing Contractor Goa" loading="lazy">
               <div class="portfolio-info">
-                <h5>Rio Luxury Appt</h5>
+                <p class="portfolio-title">Rio Luxury Appt</p>
                 <p>Candolim Goa</p>
                 <div class="portfolio-links">
                   <a href="assets/img/portfolio/4/2.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Rio Luxury Appt"><i class="bx bx-fullscreen"></i></a>
@@ -564,7 +564,7 @@
             <div class="portfolio-wrap">
               <img src="assets/img/portfolio/4/4.jpg" class="img-fluid" alt="Vishal Plumbing Contractor Goa" loading="lazy">
               <div class="portfolio-info">
-                <h5>Rio Luxury Appt</h5>
+                <p class="portfolio-title">Rio Luxury Appt</p>
                 <p>Candolim Goa</p>
                 <div class="portfolio-links">
                   <a href="assets/img/portfolio/4/4.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Rio Luxury Appt"><i class="bx bx-fullscreen"></i></a>
@@ -576,7 +576,7 @@
             <div class="portfolio-wrap">
               <img src="assets/img/portfolio/4/3.jpg" class="img-fluid" alt="Vishal Plumbing Contractor Goa" loading="lazy">
               <div class="portfolio-info">
-                <h5>Rio Luxury Appt</h5>
+                <p class="portfolio-title">Rio Luxury Appt</p>
                 <p>Candolim Goa</p>
                 <div class="portfolio-links">
                   <a href="assets/img/portfolio/4/3.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Rio Luxury Appt"><i class="bx bx-fullscreen"></i></a>
@@ -589,7 +589,7 @@
             <div class="portfolio-wrap">
               <img src="assets/img/portfolio/5/1.jpg" class="img-fluid" alt="Vishal Plumbing Contractor Goa" loading="lazy">
               <div class="portfolio-info">
-                <h5>ITC Fortune</h5>
+                <p class="portfolio-title">ITC Fortune</p>
                 <p>Candolim Goa</p>
                 <div class="portfolio-links">
                   <a href="assets/img/portfolio/5/1.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="ITC Fortune"><i class="bx bx-fullscreen"></i></a>
@@ -601,7 +601,7 @@
             <div class="portfolio-wrap">
               <img src="assets/img/portfolio/5/2.jpg" class="img-fluid" alt="Vishal Plumbing Contractor Goa" loading="lazy">
               <div class="portfolio-info">
-                <h5>ITC Fortune</h5>
+                <p class="portfolio-title">ITC Fortune</p>
                 <p>Candolim Goa</p>
                 <div class="portfolio-links">
                   <a href="assets/img/portfolio/5/2.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="ITC Fortune"><i class="bx bx-fullscreen"></i></a>
@@ -613,7 +613,7 @@
             <div class="portfolio-wrap">
               <img src="assets/img/portfolio/5/4.jpg" class="img-fluid" alt="Vishal Plumbing Contractor Goa" loading="lazy">
               <div class="portfolio-info">
-                <h5>ITC Fortune</h5>
+                <p class="portfolio-title">ITC Fortune</p>
                 <p>Candolim Goa</p>
                 <div class="portfolio-links">
                   <a href="assets/img/portfolio/5/4.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="ITC Fortune"><i class="bx bx-fullscreen"></i></a>
@@ -625,7 +625,7 @@
             <div class="portfolio-wrap">
               <img src="assets/img/portfolio/5/3.jpg" class="img-fluid" alt="Vishal Plumbing Contractor Goa" loading="lazy">
               <div class="portfolio-info">
-                <h5>ITC Fortune</h5>
+                <p class="portfolio-title">ITC Fortune</p>
                 <p>Candolim Goa</p>
                 <div class="portfolio-links">
                   <a href="assets/img/portfolio/5/3.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="ITC Fortune"><i class="bx bx-fullscreen"></i></a>
@@ -638,7 +638,7 @@
             <div class="portfolio-wrap">
               <img src="assets/img/portfolio/6/1.jpg" class="img-fluid" alt="Vishal Plumbing Contractor Goa" loading="lazy">
               <div class="portfolio-info">
-                <h5>Kokra Resort & Spa</h5>
+                <p class="portfolio-title">Kokra Resort & Spa</p>
                 <p>Calangute Goa</p>
                 <div class="portfolio-links">
                   <a href="assets/img/portfolio/6/1.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Kokra Resort & Spa"><i class="bx bx-fullscreen"></i></a>
@@ -650,7 +650,7 @@
             <div class="portfolio-wrap">
               <img src="assets/img/portfolio/6/2.jpg" class="img-fluid" alt="Vishal Plumbing Contractor Goa" loading="lazy">
               <div class="portfolio-info">
-                <h5>Kokra Resort & Spa</h5>
+                <p class="portfolio-title">Kokra Resort & Spa</p>
                 <p>Calangute Goa</p>
                 <div class="portfolio-links">
                   <a href="assets/img/portfolio/6/2.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Kokra Resort & Spa"><i class="bx bx-fullscreen"></i></a>
@@ -662,7 +662,7 @@
             <div class="portfolio-wrap">
               <img src="assets/img/portfolio/6/3.jpg" class="img-fluid" alt="Vishal Plumbing Contractor Goa" loading="lazy">
               <div class="portfolio-info">
-                <h3>Kokra Resort & Spa</h5>
+                <p class="portfolio-title">Kokra Resort & Spa</p>
                 <p>Calangute Goa</p>
                 <div class="portfolio-links">
                   <a href="assets/img/portfolio/6/3.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Kokra Resort & Spa"><i class="bx bx-fullscreen"></i></a>
@@ -675,7 +675,7 @@
             <div class="portfolio-wrap">
               <img src="assets/img/portfolio/7/1.jpg" class="img-fluid" alt="Vishal Plumbing Contractor Goa" loading="lazy">
               <div class="portfolio-info">
-                <h5>Manas Construction</h5>
+                <p class="portfolio-title">Manas Construction</p>
                 <p>Calangute Goa</p>
                 <div class="portfolio-links">
                   <a href="assets/img/portfolio/7/1.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Manas Construction"><i class="bx bx-fullscreen"></i></a>
@@ -687,7 +687,7 @@
             <div class="portfolio-wrap">
               <img src="assets/img/portfolio/7/2.jpg" class="img-fluid" alt="Vishal Plumbing Contractor Goa" loading="lazy">
               <div class="portfolio-info">
-                <h5>Manas Construction</h5>
+                <p class="portfolio-title">Manas Construction</p>
                 <p>Calangute Goa</p>
                 <div class="portfolio-links">
                   <a href="assets/img/portfolio/7/2.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Manas Construction"><i class="bx bx-fullscreen"></i></a>
@@ -700,7 +700,7 @@
             <div class="portfolio-wrap">
               <img src="assets/img/portfolio/8/1.jpg" class="img-fluid" alt="Vishal Plumbing Contractor Goa" loading="lazy">
               <div class="portfolio-info">
-                <h5>Ahaan Resort Pvt Ltd</h5>
+                <p class="portfolio-title">Ahaan Resort Pvt Ltd</p>
                 <p>Calangute Goa</p>
                 <div class="portfolio-links">
                   <a href="assets/img/portfolio/8/1.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Ahaan Resort Pvt Ltd"><i class="bx bx-fullscreen"></i></a>
@@ -712,7 +712,7 @@
             <div class="portfolio-wrap">
               <img src="assets/img/portfolio/8/2.jpg" class="img-fluid" alt="Vishal Plumbing Contractor Goa" loading="lazy">
               <div class="portfolio-info">
-                <h5>Ahaan Resort Pvt Ltd</h5>
+                <p class="portfolio-title">Ahaan Resort Pvt Ltd</p>
                 <p>Calangute Goa</p>
                 <div class="portfolio-links">
                   <a href="assets/img/portfolio/8/2.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Ahaan Resort Pvt Ltd"><i class="bx bx-fullscreen"></i></a>
@@ -725,7 +725,7 @@
             <div class="portfolio-wrap">
               <img src="assets/img/portfolio/9/1.jpg" class="img-fluid" alt="Vishal Plumbing Contractor Goa" loading="lazy">
               <div class="portfolio-info">
-                <h5>Holite The Holiday Hotel</h5>
+                <p class="portfolio-title">Holite The Holiday Hotel</p>
                 <p>Anjuna Goa</p>
                 <div class="portfolio-links">
                   <a href="assets/img/portfolio/9/1.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Holite The Holiday Hotel"><i class="bx bx-fullscreen"></i></a>
@@ -737,7 +737,7 @@
             <div class="portfolio-wrap">
               <img src="assets/img/portfolio/9/2.jpg" class="img-fluid" alt="Vishal Plumbing Contractor Goa" loading="lazy">
               <div class="portfolio-info">
-                <h5>Holite The Holiday Hotel</h5>
+                <p class="portfolio-title">Holite The Holiday Hotel</p>
                 <p>Anjuna Goa</p>
                 <div class="portfolio-links">
                   <a href="assets/img/portfolio/9/2.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Holite The Holiday Hotel"><i class="bx bx-fullscreen"></i></a>
@@ -749,7 +749,7 @@
             <div class="portfolio-wrap">
               <img src="assets/img/portfolio/9/7.jpg" class="img-fluid" alt="Vishal Plumbing Contractor Goa" loading="lazy">
               <div class="portfolio-info">
-                <h5>Holite The Holiday Hotel</h5>
+                <p class="portfolio-title">Holite The Holiday Hotel</p>
                 <p>Anjuna Goa</p>
                 <div class="portfolio-links">
                   <a href="assets/img/portfolio/9/7.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Holite The Holiday Hotel"><i class="bx bx-fullscreen"></i></a>
@@ -761,7 +761,7 @@
             <div class="portfolio-wrap">
               <img src="assets/img/portfolio/9/8.jpg" class="img-fluid" alt="Vishal Plumbing Contractor Goa" loading="lazy">
               <div class="portfolio-info">
-                <h5>Holite The Holiday Hotel</h5>
+                <p class="portfolio-title">Holite The Holiday Hotel</p>
                 <p>Anjuna Goa</p>
                 <div class="portfolio-links">
                   <a href="assets/img/portfolio/9/8.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Holite The Holiday Hotel"><i class="bx bx-fullscreen"></i></a>
@@ -773,7 +773,7 @@
             <div class="portfolio-wrap">
               <img src="assets/img/portfolio/9/3.jpg" class="img-fluid" alt="Vishal Plumbing Contractor Goa" loading="lazy">
               <div class="portfolio-info">
-                <h5>Holite The Holiday Hotel</h5>
+                <p class="portfolio-title">Holite The Holiday Hotel</p>
                 <p>Anjuna Goa</p>
                 <div class="portfolio-links">
                   <a href="assets/img/portfolio/9/3.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Holite The Holiday Hotel"><i class="bx bx-fullscreen"></i></a>
@@ -785,7 +785,7 @@
             <div class="portfolio-wrap">
               <img src="assets/img/portfolio/9/4.jpg" class="img-fluid" alt="Vishal Plumbing Contractor Goa" loading="lazy">
               <div class="portfolio-info">
-                <h5>Holite The Holiday Hotel</h5>
+                <p class="portfolio-title">Holite The Holiday Hotel</p>
                 <p>Anjuna Goa</p>
                 <div class="portfolio-links">
                   <a href="assets/img/portfolio/9/4.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Holite The Holiday Hotel"><i class="bx bx-fullscreen"></i></a>
@@ -797,7 +797,7 @@
             <div class="portfolio-wrap">
               <img src="assets/img/portfolio/9/5.jpg" class="img-fluid" alt="Vishal Plumbing Contractor Goa" loading="lazy">
               <div class="portfolio-info">
-                <h5>Holite The Holiday Hotel</h5>
+                <p class="portfolio-title">Holite The Holiday Hotel</p>
                 <p>Anjuna Goa</p>
                 <div class="portfolio-links">
                   <a href="assets/img/portfolio/9/5.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Holite The Holiday Hotel"><i class="bx bx-fullscreen"></i></a>
@@ -809,7 +809,7 @@
             <div class="portfolio-wrap">
               <img src="assets/img/portfolio/9/6.jpg" class="img-fluid" alt="Vishal Plumbing Contractor Goa" loading="lazy">
               <div class="portfolio-info">
-                <h5>Holite The Holiday Hotel</h5>
+                <p class="portfolio-title">Holite The Holiday Hotel</p>
                 <p>Anjuna Goa</p>
                 <div class="portfolio-links">
                   <a href="assets/img/portfolio/9/6.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Holite The Holiday Hotel"><i class="bx bx-fullscreen"></i></a>
@@ -829,7 +829,7 @@
       <div class="container" data-aos="fade-up">
 
         <div class="row no-gutters">
-          <div class="image col-xl-5 d-flex align-items-stretch relative justify-content-center justify-content-lg-start" data-aos="fade-right" data-aos-delay="100"></div>
+          <div class="lazy-bg image col-xl-5 d-flex align-items-stretch relative justify-content-center justify-content-lg-start" data-aos="fade-right" data-aos-delay="100"></div>
           <div class="col-xl-7 ps-lg-5 pe-lg-1 d-flex align-items-stretch relative" data-aos="fade-left" data-aos-delay="100">
             <div class="content d-flex flex-column justify-content-center">
               <h3>We're Piping Hot for Your Plumbing Needs</h3>
@@ -860,7 +860,7 @@
     <!-- End Counts Section -->
 
     <!-- ======= Testimonials Section ======= -->
-    <section id="testimonials" class="testimonials">
+    <section id="testimonials" class="testimonials lazy-bg">
       <div class="container" data-aos="zoom-in">
 
         <div class="testimonials-slider swiper" data-aos="fade-up" data-aos-delay="100">
@@ -1036,35 +1036,35 @@
           <p>Contact Us</p>
         </div>
 
-        <div>
-        <iframe title="Google map" style="border:0; width: 100%; height: 270px;" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2871.1324046660256!2d73.83690955654369!3d15.602829936261523!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bbfeb91b1101321%3A0xf4967b58f20cce88!2sMoira!5e0!3m2!1sen!2sin!4v1698319034811!5m2!1sen!2sin"  frameborder="0" allowfullscreen></iframe>
+        <div id="mapContainer">
+        <!-- <iframe title="Google map" style="border:0; width: 100%; height: 270px;" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2871.1324046660256!2d73.83690955654369!3d15.602829936261523!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bbfeb91b1101321%3A0xf4967b58f20cce88!2sMoira!5e0!3m2!1sen!2sin!4v1698319034811!5m2!1sen!2sin"  frameborder="0" allowfullscreen></iframe> -->
         </div>
 
             <div class="info">
               <div class="address">
                 <i class="bi bi-geo-alt"></i>
-                <h5>Location:</h5>
+                <p class="contact-title">Location:</p>
                 <p>House no. EHN-I-R-32, Raint Wado, Moira, Mapusa, North Goa, 403507</p>
               </div>
 
               <div class="email">
                 <a href="mailto:muttuhasagol1978@gmail.com">
                   <i class="bi bi-envelope"></i>
-                  <h5>Email:</h5>
+                  <p class="contact-title">Email:</p>
                   <p>muttuhasagol1978@gmail.com</p>
                 </a>
               </div>
 
               <div class="phone">
                 <i class="bi bi-phone"></i>
-                <h5>Call:</h5>
+                <p class="contact-title">Call:</p>
                 <p>+91-9823846252</p>
               </div>
 
               <div class="phone">
                 <a href="https://api.WhatsApp.com/send?phone=+91-7775915466">
                   <i class="bi bi-whatsapp"></i>
-                  <h5>Whatsapp:</h5>
+                  <p class="contact-title">Whatsapp:</p>
                   <p>+91-7775915466</p>
                 </a>
               </div>
@@ -1112,16 +1112,16 @@
       <div class="container">
         <div class="row">
 
-          <div class="col-lg-3 col-md-6 footer-logo">
+          <div class="col-lg-3 col-md-12 footer-logo">
             <div class="footer-info">
               <a href="./" class="logo-img">
-                <img src="assets/img/bw-logo.png" alt="VISHAL PLUMBING CONTRACTOR" width="250">
+                <img src="assets/img/bw-logo.png" alt="VISHAL PLUMBING CONTRACTOR" width="150">
               </a>
             </div>
           </div>
 
-          <div class="col-lg-3 col-md-6 footer-links">
-            <h4>Useful Links</h4>
+          <div class="col-lg-3 col-md-12 footer-links">
+            <p class="footer-link-title">Useful Links</p>
             <ul>
               <li><i class="bx bx-chevron-right"></i> <a href="#hero">Home</a></li>
               <li><i class="bx bx-chevron-right"></i> <a href="#about">About us</a></li>
@@ -1131,8 +1131,8 @@
             </ul>
           </div>
 
-          <div class="col-lg-3 col-md-6 footer-links">
-            <h4>Our Services</h4>
+          <div class="col-lg-3 col-md-12 footer-links">
+            <p class="footer-link-title">Our Services</p>
             <ul>
               <li><i class="bx bx-chevron-right"></i> <a href="#">House/Building Plumbing</a></li>
               <li><i class="bx bx-chevron-right"></i> <a href="#">Private-Shop Plumbing</a></li>
@@ -1141,7 +1141,7 @@
               <li><i class="bx bx-chevron-right"></i> <a href="#">Outstation Plumbing</a></li>
             </ul>
           </div>
-          <div class="col-lg-3 col-md-6 footer-links">
+          <div class="col-lg-3 col-md-12 footer-links">
             <p>
               <strong><span class="primary-color">Address:</span></strong> House no. EHN-I-R-32, Raint Wado, Moira, Mapusa, North Goa, 403507<br><br>
               <strong><span class="primary-color">Phone:</span></strong> +91-9823846252<br>
@@ -1175,7 +1175,7 @@
   <script src="assets/vendor/php-email-form/validate.js"></script>
   <script src="assets/vendor/purecounter/purecounter.js"></script>
   <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
-  <script src="assets/js/main-minify.js"></script>
+  <script src="assets/js/main.js"></script>
   <script>
       const header = document.querySelector('#header');
       const headerHeight = header.offsetHeight;
