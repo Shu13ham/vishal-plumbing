@@ -307,7 +307,7 @@ document.addEventListener('DOMContentLoaded', function() {
     var iframe = document.createElement('iframe');
     iframe.setAttribute('title', 'Youtube');
     iframe.setAttribute('class', 'youtube-video');
-    iframe.setAttribute('src', 'https://www.youtube.com/embed/mp3GOx1tPXY');
+    iframe.setAttribute('src', 'https://www.youtube.com/embed/ZfHa8zDuR4c');
     iframe.setAttribute('frameborder', '0');
     iframe.setAttribute('allowfullscreen', '');
 
@@ -322,7 +322,7 @@ document.addEventListener('DOMContentLoaded', function() {
     var iframe = document.createElement('iframe');
     iframe.setAttribute('title', 'Google map');
     iframe.setAttribute('style', 'border:0; width: 100%; height: 270px;');
-    iframe.setAttribute('src', 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2871.1324046660256!2d73.83690955654369!3d15.602829936261523!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bbfeb91b1101321%3A0xf4967b58f20cce88!2sMoira!5e0!3m2!1sen!2sin!4v1698319034811!5m2!1sen!2sin');
+    iframe.setAttribute('src', 'https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3842.848261126453!2d73.84808699999999!3d15.599754!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMTXCsDM1JzU5LjEiTiA3M8KwNTAnNTMuMSJF!5e0!3m2!1sen!2sin!4v1703702667493!5m2!1sen!2sin');
 
     // Append the iframe to the container
     var container = document.getElementById('mapContainer');

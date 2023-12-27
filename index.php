@@ -1144,8 +1144,8 @@
           <div class="col-lg-3 col-md-12 footer-links">
             <p>
               <strong><span class="primary-color">Address:</span></strong> House no. EHN-I-R-32, Raint Wado, Moira, Mapusa, North Goa, 403507<br><br>
-              <strong><span class="primary-color">Phone:</span></strong> +91-9823846252<br>
-              <strong><span class="primary-color">Email:</span></strong> muttuhasagol1978@gmail.com<br>
+              <strong><span class="primary-color">Phone:</span></strong> +91-9823846252 / +91-7775915466<br>
+              <strong><span class="primary-color">Email:</span></strong> muttuhasangol1978@gmail.com<br>
             </p>
             <!-- <div class="social-links mt-3">
               <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
